@@ -102,7 +102,7 @@ void TLEEvents::drawShape(QPainter* painter,Shape sh,QString name)
         painter->setPen(QPen( QColor(colors.at(0).toUInt(),
                                      colors.at(1).toUInt(),
                                      colors.at(2).toUInt()),
-                              sh.list_Attr->value("LineStyle").toUInt()));
+                              sh.list_Attr->value("LineWight").toUInt()));
 
         painter->drawLine(sh.list_Attr->value("StartX").toUInt()*grid,
                           sh.list_Attr->value("StartY").toUInt()*grid,
@@ -119,7 +119,7 @@ void TLEEvents::drawShape(QPainter* painter,Shape sh,QString name)
         painter->setPen(QPen( QColor(colors.at(0).toUInt(),
                                      colors.at(1).toUInt(),
                                      colors.at(2).toUInt()),
-                              sh.list_Attr->value("LineStyle").toUInt()));
+                              sh.list_Attr->value("LineWight").toUInt()));
 
         QPoint begin(sh.list_Attr->value("StartX").toUInt()*grid,
                      sh.list_Attr->value("StartY").toUInt()*grid);
@@ -149,7 +149,7 @@ void TLEEvents::drawShape(QPainter* painter,Shape sh,QString name)
         painter->setPen(QPen( QColor(colors.at(0).toUInt(),
                                      colors.at(1).toUInt(),
                                      colors.at(2).toUInt()),
-                              sh.list_Attr->value("LineStyle").toUInt()));
+                              sh.list_Attr->value("LineWight").toUInt()));
 
         painter->drawRect(sh.list_Attr->value("LeftTopX").toUInt()*grid,
                           sh.list_Attr->value("LeftTopY").toUInt()*grid,
@@ -166,7 +166,7 @@ void TLEEvents::drawShape(QPainter* painter,Shape sh,QString name)
         painter->setPen(QPen( QColor(colors.at(0).toUInt(),
                                      colors.at(1).toUInt(),
                                      colors.at(2).toUInt()),
-                              sh.list_Attr->value("LineStyle").toUInt()));
+                              sh.list_Attr->value("LineWight").toUInt()));
 
         //        painter->drawRect(QRect(QPoint(sh.list_Attr->value("StartX").toUInt()*grid,
         //                                       sh.list_Attr->value("StartY").toUInt()*grid),
@@ -187,7 +187,7 @@ void TLEEvents::drawShape(QPainter* painter,Shape sh,QString name)
         painter->setPen(QPen( QColor(colors.at(0).toUInt(),
                                      colors.at(1).toUInt(),
                                      colors.at(2).toUInt()),
-                              sh.list_Attr->value("LineStyle").toUInt()));
+                              sh.list_Attr->value("LineWight").toUInt()));
 
         QString brush=sh.list_Attr->value("BrushColor");
         QStringList brushcolors=brush.split(" ");

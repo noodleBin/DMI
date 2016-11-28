@@ -109,73 +109,73 @@
 </LCS_List>
 <ViewTemplate_LIST LineWight="4" RouteWight="8" SignlaCircleSize="1">
 <Template TemplateID="31" TemplateName="大和路-环观南路">
-<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="4"/>
-<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="4"/>
-<Line Color="200 200 200" StartX="14" StartY="7" EndX="18" EndY="7" LineStyle="4"/>
-<Line Color="200 200 200" StartX="14" StartY="11" EndX="18" EndY="11" LineStyle="4"/>
-<ARC Color="200 200 200" StartX="11" StartY="17" EndX="17" EndY="11" StartAngle="180" SpanAngle="-90" LineStyle="4"/>
-<ARC Color="200 200 200" StartX="11" StartY="1" EndX="17" EndY="7" StartAngle="180" SpanAngle="90" LineStyle="4"/>
-<ARC Color="200 200 200" StartX="7" StartY="-3" EndX="21" EndY="11" StartAngle="180" SpanAngle="90" LineStyle="4"/>
-<ARC Color="200 200 200" StartX="7" StartY="21" EndX="21" EndY="7" StartAngle="180" SpanAngle="-90" LineStyle="4"/>
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineWight="4"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineWight="4"/>
+<Line Color="200 200 200" StartX="14" StartY="7" EndX="18" EndY="7" LineWight="4"/>
+<Line Color="200 200 200" StartX="14" StartY="11" EndX="18" EndY="11" LineWight="4"/>
+<ARC Color="200 200 200" StartX="11" StartY="17" EndX="17" EndY="11" StartAngle="180" SpanAngle="-90" LineWight="4"/>
+<ARC Color="200 200 200" StartX="11" StartY="1" EndX="17" EndY="7" StartAngle="180" SpanAngle="90" LineWight="4"/>
+<ARC Color="200 200 200" StartX="7" StartY="-3" EndX="21" EndY="11" StartAngle="180" SpanAngle="90" LineWight="4"/>
+<ARC Color="200 200 200" StartX="7" StartY="21" EndX="21" EndY="7" StartAngle="180" SpanAngle="-90" LineWight="4"/>
 </Template>
 <Template TemplateID="1" TemplateName="直行 前方有路口">
 <Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="7" RightBottomX="18" RightBottomY="4"/>
-<Line Color="255 242 0" StartX="0" StartY="9" EndX="2" EndY="9" LineStyle="4"/>
-<Line Color="255 242 0" StartX="4" StartY="9" EndX="6" EndY="9" LineStyle="4"/>
-<Line Color="255 242 0" StartX="8" StartY="9" EndX="10" EndY="9" LineStyle="4"/>
-<Line Color="255 242 0" StartX="12" StartY="9" EndX="14" EndY="9" LineStyle="4"/>
-<Line Color="255 242 0" StartX="16" StartY="9" EndX="18" EndY="9" LineStyle="4"/>
-<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="4"/>
-<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="4"/>
+<Line Color="255 242 0" StartX="0" StartY="9" EndX="2" EndY="9" LineWight="4"/>
+<Line Color="255 242 0" StartX="4" StartY="9" EndX="6" EndY="9" LineWight="4"/>
+<Line Color="255 242 0" StartX="8" StartY="9" EndX="10" EndY="9" LineWight="4"/>
+<Line Color="255 242 0" StartX="12" StartY="9" EndX="14" EndY="9" LineWight="4"/>
+<Line Color="255 242 0" StartX="16" StartY="9" EndX="18" EndY="9" LineWight="4"/>
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineWight="4"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineWight="4"/>
 </Template>
 <Template TemplateID="2" TemplateName="直行交叉渡线">
-<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="4"/>
-<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="4"/>
-<Bezier Color="200 200 200" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="4"/>
-<Bezier Color="200 200 200" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="4"/>
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineWight="4"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineWight="4"/>
+<Bezier Color="200 200 200" StartX="7" StartY="6" EndX="11" EndY="13" LineWight="4"/>
+<Bezier Color="200 200 200" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="4"/>
 </Template>
 <Template TemplateID="21" TemplateName="直行左交叉渡线">
-<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
-<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineWight="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineWight="1"/>
 <Bezier Color="200 200 200" StartX="7" StartY="6" EndX="11" EndY="13"/>
 </Template>
 <Template TemplateID="22" TemplateName="直行右交叉渡线">
-<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="4"/>
-<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="4"/>
-<Bezier Color="200 200 200" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="4"/>
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineWight="4"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineWight="4"/>
+<Bezier Color="200 200 200" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="4"/>
 </Template>
 <Template TemplateID="12" TemplateName="直行交叉渡线 道岔前方有路口">
-<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
-<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineWight="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineWight="1"/>
 <Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="2" RightBottomX="18" RightBottomY="5"/>
 <Bezier Color="200 200 200" StartX="7" StartY="7" EndX="11" EndY="14"/>
 <Bezier Color="200 200 200" StartX="11" StartY="7" EndX="7" EndY="14"/>
 </Template>
 <Template TemplateID="112" TemplateName="直行左渡线 道岔前方有路口">
-<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
-<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineWight="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineWight="1"/>
 <Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="2" RightBottomX="18" RightBottomY="5"/>
 <Bezier Color="200 200 200" StartX="7" StartY="7" EndX="11" EndY="14"/>
 </Template>
 <Template TemplateID="123" TemplateName="直行右渡线 道岔前方有路口">
-<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
-<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineWight="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineWight="1"/>
 <Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="2" RightBottomX="18" RightBottomY="5"/>
 <Bezier Color="200 200 200" StartX="11" StartY="7" EndX="7" EndY="14"/>
 </Template>
 <Template TemplateID="122" TemplateName="车辆场出入段线进出口左">
-<Line Color="200 200 200" StartX="0" StartY="7" EndX="18" EndY="7" LineStyle="4"/>
-<Line Color="200 200 200" StartX="0" StartY="11" EndX="18" EndY="11" LineStyle="4"/>
-<Line Color="200 200 200" StartX="14" StartY="0" EndX="14" EndY="3" LineStyle="4"/>
-<Line Color="200 200 200" StartX="14" StartY="3" EndX="10" EndY="7" LineStyle="4"/>
-<Line Color="200 200 200" StartX="8" StartY="7" EndX="4" EndY="11" LineStyle="4"/>
+<Line Color="200 200 200" StartX="0" StartY="7" EndX="18" EndY="7" LineWight="4"/>
+<Line Color="200 200 200" StartX="0" StartY="11" EndX="18" EndY="11" LineWight="4"/>
+<Line Color="200 200 200" StartX="14" StartY="0" EndX="14" EndY="3" LineWight="4"/>
+<Line Color="200 200 200" StartX="14" StartY="3" EndX="10" EndY="7" LineWight="4"/>
+<Line Color="200 200 200" StartX="8" StartY="7" EndX="4" EndY="11" LineWight="4"/>
 </Template>
 <Template TemplateID="124" TemplateName="车辆场出入段线进出口右">
-<Line Color="200 200 200" StartX="0" StartY="7" EndX="18" EndY="7" LineStyle="4"/>
-<Line Color="200 200 200" StartX="0" StartY="11" EndX="18" EndY="11" LineStyle="4"/>
-<Line Color="200 200 200" StartX="4" StartY="0" EndX="4" EndY="3" LineStyle="4"/>
-<Line Color="200 200 200" StartX="4" StartY="3" EndX="8" EndY="7" LineStyle="4"/>
-<Line Color="200 200 200" StartX="10" StartY="7" EndX="14" EndY="11" LineStyle="4"/>
+<Line Color="200 200 200" StartX="0" StartY="7" EndX="18" EndY="7" LineWight="4"/>
+<Line Color="200 200 200" StartX="0" StartY="11" EndX="18" EndY="11" LineWight="4"/>
+<Line Color="200 200 200" StartX="4" StartY="0" EndX="4" EndY="3" LineWight="4"/>
+<Line Color="200 200 200" StartX="4" StartY="3" EndX="8" EndY="7" LineWight="4"/>
+<Line Color="200 200 200" StartX="10" StartY="7" EndX="14" EndY="11" LineWight="4"/>
 </Template>
 </ViewTemplate_LIST>
 <ViewList>
@@ -183,25 +183,25 @@
 <LCSList>
 <LCS Name="LCS0102" X="6" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS0101" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS0104" X="8" Y="6" Rotate="180" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS0103" X="12" Y="6" Rotate="180" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -215,45 +215,45 @@
 <SignalList>
 <Signal Name="S0101" X="10" Y="13" Rotate="0" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Left>
-<Bezier Color="255 242 0" StartX="11" StartY="13" EndX="7" EndY="6" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="6" EndX="7" EndY="5" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="13" EndX="7" EndY="6" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="6" EndX="7" EndY="5" LineWight="8"/>
 <Arrow X="7" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </Signal>
 <Signal Name="S0102" X="6" Y="13" Rotate="0" offset="1">
 <Right>
-<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="6"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="6"/>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineWight="6"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineWight="6"/>
 <Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0103" X="12" Y="6" Rotate="180" offset="0">
 <Right>
-<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0104" X="8" Y="6" Rotate="180" offset="0">
 <Left>
-<Bezier Color="255 242 0" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="13" EndX="11" EndY="14" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="7" StartY="6" EndX="11" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="13" EndX="11" EndY="14" LineWight="8"/>
 <Arrow X="11" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
@@ -263,13 +263,13 @@
 <LCSList>
 <LCS Name="LCS0202" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS0201" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -279,15 +279,15 @@
 <LCSList>
 <LCS Name="LCS0302" X="8" Y="6" Rotate="180" offset="1">
 <Right>
-<Line Color="255 242 0" StartX="7" StartY="3" EndX="7" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="7" EndX="4" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="3" EndX="7" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="7" EndX="4" EndY="7" LineWight="8"/>
 <Arrow X="4" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </LCS>
 <LCS Name="LCS0301" X="10" Y="12" Rotate="0" offset="1">
 <Left>
-<Line Color="255 242 0" StartX="11" StartY="16" EndX="11" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="11" EndX="8" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="16" EndX="11" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="11" EndX="8" EndY="11" LineWight="8"/>
 <Arrow X="8" Y="11" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </LCS>
@@ -297,13 +297,13 @@
 <LCSList>
 <LCS Name="LCS0402" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS0401" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -313,19 +313,19 @@
 <SignalList>
 <Signal Name="S0301" X="10" Y="13" Rotate="0" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0302" X="6" Y="13" Rotate="0" offset="1">
 <Right>
-<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
@@ -333,7 +333,7 @@
 </Signal>
 <Signal Name="S0304" X="8" Y="6" Rotate="180" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
@@ -343,13 +343,13 @@
 <LCSList>
 <LCS Name="LCS0502" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS0501" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -359,13 +359,13 @@
 <LCSList>
 <LCS Name="LCS0602" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS0601" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -375,13 +375,13 @@
 <LCSList>
 <LCS Name="LCS0702" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS0701" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -391,13 +391,13 @@
 <LCSList>
 <LCS Name="LCS0802" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS0801" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -407,37 +407,37 @@
 <SignalList>
 <Signal Name="S0701" X="10" Y="13" Rotate="0" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0702" X="6" Y="13" Rotate="0" offset="1">
 <Right>
-<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0703" X="12" Y="6" Rotate="180" offset="0">
 <Right>
-<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0704" X="8" Y="6" Rotate="180" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
@@ -447,13 +447,13 @@
 <SignalList>
 <Signal Name="S0705" X="10" Y="14" Rotate="0" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Right>
-<ARC Color="255 242 0" StartX="11" StartY="17" EndX="17" EndY="11" StartAngle="180" SpanAngle="-90" LineStyle="8"/> 
-<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="14" EndX="11" EndY="15" LineStyle="8"/>
+<ARC Color="255 242 0" StartX="11" StartY="17" EndX="17" EndY="11" StartAngle="180" SpanAngle="-90" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="14" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="15" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </Signal>
@@ -461,28 +461,28 @@
 <Signal Name="S0707V" X="12" Y="4" Rotate="180" offset="0"/>
 <Signal Name="S0708" X="8" Y="4" Rotate="180" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Left>
-<ARC Color="255 242 0" StartX="7" StartY="-3" EndX="21" EndY="11" StartAngle="180" SpanAngle="90" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="0" EndX="7" EndY="5.5" LineStyle="8"/>
+<ARC Color="255 242 0" StartX="7" StartY="-3" EndX="21" EndY="11" StartAngle="180" SpanAngle="90" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="0" EndX="7" EndY="5.5" LineWight="8"/>
 <Arrow X="15" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </Signal>
 <Signal Name="S0713V" X="14" Y="12" Rotate="-90" offset="0"/>
 <Signal Name="S0714" X="14" Y="8" Rotate="-90" offset="0">
 <Right>
-<ARC Color="255 242 0" StartX="11" StartY="1" EndX="17" EndY="7" StartAngle="180" SpanAngle="90" LineStyle="8"/> 
-<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="3" EndX="11" EndY="4" LineStyle="8"/>
+<ARC Color="255 242 0" StartX="11" StartY="1" EndX="17" EndY="7" StartAngle="180" SpanAngle="90" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="3" EndX="11" EndY="4" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Left>
-<ARC Color="255 242 0" StartX="7" StartY="21" EndX="21" EndY="7" StartAngle="180" SpanAngle="-90" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="14" EndX="7" EndY="15" LineStyle="8"/>
+<ARC Color="255 242 0" StartX="7" StartY="21" EndX="21" EndY="7" StartAngle="180" SpanAngle="-90" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="14" EndX="7" EndY="15" LineWight="8"/>
 <Arrow X="7" Y="15" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </Signal>
@@ -490,39 +490,39 @@
 <LCSList>
 <LCS Name="LCS0901" X="12" Y="14" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Right>
-<ARC Color="255 242 0" StartX="11" StartY="17" EndX="17" EndY="11" StartAngle="180" SpanAngle="-90" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="14" EndX="11" EndY="15" LineStyle="8"/>
+<ARC Color="255 242 0" StartX="11" StartY="17" EndX="17" EndY="11" StartAngle="180" SpanAngle="-90" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="14" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="15" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </LCS>
 <LCS Name="LCS0902" X="6" Y="4" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Left>
-<ARC Color="255 242 0" StartX="7" StartY="-3" EndX="21" EndY="11" StartAngle="180" SpanAngle="90" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="0" EndX="7" EndY="5.5" LineStyle="8"/>
+<ARC Color="255 242 0" StartX="7" StartY="-3" EndX="21" EndY="11" StartAngle="180" SpanAngle="90" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="0" EndX="7" EndY="5.5" LineWight="8"/>
 <Arrow X="15" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </LCS>
 <LCS Name="LCS0904" X="14" Y="6" Rotate="-90" offset="1">
 <Right>
-<ARC Color="255 242 0" StartX="11" StartY="1" EndX="17" EndY="7" StartAngle="180" SpanAngle="90" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="3" EndX="11" EndY="4" LineStyle="8"/>
+<ARC Color="255 242 0" StartX="11" StartY="1" EndX="17" EndY="7" StartAngle="180" SpanAngle="90" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="3" EndX="11" EndY="4" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Left>
-<ARC Color="255 242 0" StartX="7" StartY="21" EndX="21" EndY="7" StartAngle="180" SpanAngle="-90" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="14" EndX="7" EndY="15" LineStyle="8"/>
+<ARC Color="255 242 0" StartX="7" StartY="21" EndX="21" EndY="7" StartAngle="180" SpanAngle="-90" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="14" EndX="7" EndY="15" LineWight="8"/>
 <Arrow X="7" Y="15" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </LCS>
@@ -532,37 +532,37 @@
 <SignalList>
 <Signal Name="S0709" X="10" Y="13" Rotate="0" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0710" X="6" Y="13" Rotate="0" offset="1">
 <Right>
-<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0711" X="12" Y="6" Rotate="180" offset="0">
 <Right>
-<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0712" X="8" Y="6" Rotate="180" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
@@ -572,13 +572,13 @@
 <LCSList>
 <LCS Name="LCS1002" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS1001" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -588,13 +588,13 @@
 <LCSList>
 <LCS Name="LCS1102" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS1101" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -604,13 +604,13 @@
 <LCSList>
 <LCS Name="LCS1202" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS1201" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -620,22 +620,22 @@
 <LCSList>
 <LCS Name="LCS1304" X="8" Y="6" Rotate="180" offset="1">
 <Left>
-<Line Color="255 242 0" StartX="7" StartY="3" EndX="7" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="3" EndX="7" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="7" EndX="10" EndY="7" LineWight="8"/>
 <Arrow X="10" Y="7" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </LCS>
 <LCS Name="LCS1302" X="6" Y="12" Rotate="0" offset="1">
 <Right>
-<Line Color="255 242 0" StartX="7" StartY="16" EndX="7" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="11" EndX="10" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="16" EndX="7" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="11" EndX="10" EndY="11" LineWight="8"/>
 <Arrow X="10" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </LCS>
 <LCS Name="LCS1301" X="10" Y="12" Rotate="0" offset="1">
 <Right>
-<Line Color="255 242 0" StartX="11" StartY="16" EndX="11" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="11" EndX="14" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="16" EndX="11" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="11" EndX="14" EndY="11" LineWight="8"/>
 <Arrow X="14" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </LCS>
@@ -645,37 +645,37 @@
 <SignalList>
 <Signal Name="S0901" X="10" Y="13" Rotate="0" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0902" X="6" Y="13" Rotate="0" offset="1">
 <Right>
-<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0903" X="12" Y="6" Rotate="180" offset="0">
 <Right>
-<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0904" X="8" Y="6" Rotate="180" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
@@ -685,29 +685,29 @@
 <LCSList>
 <LCS Name="LCS1401" X="4" Y="12" Rotate="90" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineWight="8"/>
 <Arrow X="16" Y="11" Rotate="0" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Left>
-<Line Color="255 242 0" StartX="4" StartY="11" EndX="8" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="3" StartY="11" EndX="4" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="9" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="4" StartY="11" EndX="8" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="3" StartY="11" EndX="4" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="9" EndY="7" LineWight="8"/>
 <Arrow X="9" Y="7" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </LCS>
 <LCS Name="LCS1402" X="4" Y="8" Rotate="90" offset="1">
 <Left>
-<Line Color="255 242 0" StartX="2" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="3" EndX="14" EndY="2" LineStyle="8"/>
+<Line Color="255 242 0" StartX="2" StartY="7" EndX="10" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="3" EndX="14" EndY="2" LineWight="8"/>
 <Arrow X="14" Y="2" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </LCS>
 <LCS Name="LCS1404" X="13" Y="3" Rotate="180" offset="1">
 <Right>
-<Line Color="255 242 0" StartX="9" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="2" EndX="14" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="9" StartY="7" EndX="10" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="2" EndX="14" EndY="3" LineWight="8"/>
 <Arrow X="9" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </LCS>
@@ -715,49 +715,49 @@
 <SignalList>
 <Signal Name="S1001" X="4" Y="10" Rotate="90" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineWight="8"/>
 <Arrow X="16" Y="11" Rotate="0" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Left>
-<Line Color="255 242 0" StartX="4" StartY="11" EndX="8" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="3" StartY="11" EndX="4" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="9" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="4" StartY="11" EndX="8" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="3" StartY="11" EndX="4" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="9" EndY="7" LineWight="8"/>
 <Arrow X="9" Y="7" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </Signal>
 <Signal Name="S1002" X="4" Y="6" Rotate="90" offset="1">
 <Left>
-<Line Color="255 242 0" StartX="2" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="3" EndX="14" EndY="2" LineStyle="8"/>
+<Line Color="255 242 0" StartX="2" StartY="7" EndX="10" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="3" EndX="14" EndY="2" LineWight="8"/>
 <Arrow X="14" Y="2" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </Signal>
 <Signal Name="S1003V" X="8" Y="12" Rotate="-90" offset="0"/>
 <Signal Name="S1004" X="14" Y="8" Rotate="-90" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="15" StartY="7" EndX="4" EndY="7" LineStyle="8"/>
+<Line Color="34 177 76" StartX="15" StartY="7" EndX="4" EndY="7" LineWight="8"/>
 <Arrow X="4" Y="7" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Left>
-<Line Color="255 242 0" StartX="15" StartY="7" EndX="8" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="4" StartY="11" EndX="3" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="15" StartY="7" EndX="8" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="4" StartY="11" EndX="3" EndY="11" LineWight="8"/>
 <Arrow X="3" Y="11" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </Signal>
 <Signal Name="S1006" X="15" Y="3" Rotate="180" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="9" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
-<Line Color="34 177 76" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
-<Line Color="34 177 76" StartX="14" StartY="2" EndX="14" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="9" StartY="7" EndX="10" EndY="7" LineWight="8"/>
+<Line Color="34 177 76" StartX="10" StartY="7" EndX="14" EndY="3" LineWight="8"/>
+<Line Color="34 177 76" StartX="14" StartY="2" EndX="14" EndY="3" LineWight="8"/>
 <Arrow X="9" Y="7" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Left>
-<Line Color="255 242 0" StartX="6" StartY="9" EndX="8" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="14" StartY="2" EndX="14" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="6" StartY="9" EndX="8" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="10" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="14" StartY="2" EndX="14" EndY="3" LineWight="8"/>
 <Arrow X="6" Y="9" Rotate="-135" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </Signal>
@@ -767,34 +767,34 @@
 <LCSList>
 <LCS Name="LCS1501" X="14" Y="10" Rotate="-90" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineWight="8"/>
 <Arrow X="2" Y="11" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Right>
-<Line Color="255 242 0" StartX="9" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="15" StartY="11" EndX="14" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="9" StartY="7" EndX="10" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="15" StartY="11" EndX="14" EndY="11" LineWight="8"/>
 <Arrow X="9" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </LCS>
 <LCS Name="LCS1502" X="14" Y="6" Rotate="-90" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="2" StartY="7" EndX="16" EndY="7" LineStyle="8"/>
+<Line Color="34 177 76" StartX="2" StartY="7" EndX="16" EndY="7" LineWight="8"/>
 <Arrow X="2" Y="7" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Right>
-<Line Color="255 242 0" StartX="16" StartY="7" EndX="8" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineStyle="8"/>
+<Line Color="255 242 0" StartX="16" StartY="7" EndX="8" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineWight="8"/>
 <Arrow X="4" Y="2" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </LCS>
 <LCS Name="LCS1504" X="3" Y="3" Rotate="180" offset="1">
 <Left>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineStyle="8"/>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="10" StartY="7" EndX="12" EndY="9" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineWight="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="10" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="12" EndY="9" LineWight="8"/>
 <Arrow X="12" Y="9" Rotate="-45" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </LCS>
@@ -802,47 +802,47 @@
 <SignalList>
 <Signal Name="S1101" X="8" Y="12" Rotate="90" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineWight="8"/>
 <Arrow X="16" Y="11" Rotate="0" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S1102V" X="4" Y="8" Rotate="90" offset="1"/>
 <Signal Name="S1103" X="14" Y="12" Rotate="-90" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineWight="8"/>
 <Arrow X="2" Y="11" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Right>
-<Line Color="255 242 0" StartX="9" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="15" StartY="11" EndX="14" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="9" StartY="7" EndX="10" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="15" StartY="11" EndX="14" EndY="11" LineWight="8"/>
 <Arrow X="9" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </Signal>
 <Signal Name="S1104" X="14" Y="8" Rotate="-90" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="2" StartY="7" EndX="16" EndY="7" LineStyle="8"/>
+<Line Color="34 177 76" StartX="2" StartY="7" EndX="16" EndY="7" LineWight="8"/>
 <Arrow X="2" Y="7" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Right>
-<Line Color="255 242 0" StartX="16" StartY="7" EndX="8" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineStyle="8"/>
+<Line Color="255 242 0" StartX="16" StartY="7" EndX="8" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineWight="8"/>
 <Arrow X="4" Y="2" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </Signal>
 <Signal Name="S1106" X="5" Y="3" Rotate="180" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="4" StartY="2" EndX="4" EndY="3" LineStyle="8"/>
-<Line Color="34 177 76" StartX="4" StartY="3" EndX="8" EndY="7" LineStyle="8"/>
-<Line Color="34 177 76" StartX="8" StartY="7" EndX="9" EndY="7" LineStyle="8"/>
+<Line Color="34 177 76" StartX="4" StartY="2" EndX="4" EndY="3" LineWight="8"/>
+<Line Color="34 177 76" StartX="4" StartY="3" EndX="8" EndY="7" LineWight="8"/>
+<Line Color="34 177 76" StartX="8" StartY="7" EndX="9" EndY="7" LineWight="8"/>
 <Arrow X="9" Y="7" Rotate="0" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Right>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineStyle="8"/>
-<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineStyle="8"/>
-<Line Color="255 242 0" StartX="8" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="10" StartY="7" EndX="12" EndY="9" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineWight="8"/>
+<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineWight="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="10" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="12" EndY="9" LineWight="8"/>
 <Arrow X="12" Y="9" Rotate="-45" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </Signal>
@@ -852,13 +852,13 @@
 <LCSList>
 <LCS Name="LCS1602" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS1601" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -868,15 +868,15 @@
 <LCSList>
 <LCS Name="LCS1702" X="8" Y="6" Rotate="180" offset="1">
 <Right>
-<Line Color="255 242 0" StartX="7" StartY="3" EndX="7" EndY="7" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="7" EndX="4" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="3" EndX="7" EndY="7" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="7" EndX="4" EndY="7" LineWight="8"/>
 <Arrow X="4" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 </LCS>
 <LCS Name="LCS1701" X="10" Y="12" Rotate="0" offset="1">
 <Left>
-<Line Color="255 242 0" StartX="11" StartY="16" EndX="11" EndY="11" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="11" EndX="8" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="16" EndX="11" EndY="11" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="11" EndX="8" EndY="11" LineWight="8"/>
 <Arrow X="8" Y="11" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </LCS>
@@ -886,13 +886,13 @@
 <LCSList>
 <LCS Name="LCS1802" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS1801" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -902,13 +902,13 @@
 <LCSList>
 <LCS Name="LCS1902" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS1901" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -922,45 +922,45 @@
 <SignalList>
 <Signal Name="S1501" X="10" Y="13" Rotate="0" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Left>
-<Bezier Color="255 242 0" StartX="11" StartY="13" EndX="7" EndY="6" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="6" EndX="7" EndY="5" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="13" EndX="7" EndY="6" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="6" EndX="7" EndY="5" LineWight="8"/>
 <Arrow X="7" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </Signal>
 <Signal Name="S1502" X="6" Y="13" Rotate="0" offset="1">
 <Right>
-<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="6"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="6"/>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineWight="6"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineWight="6"/>
 <Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S1503" X="12" Y="6" Rotate="180" offset="0">
 <Right>
-<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S1504" X="8" Y="6" Rotate="180" offset="0">
 <Left>
-<Bezier Color="255 242 0" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="13" EndX="11" EndY="14" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="7" StartY="6" EndX="11" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="13" EndX="11" EndY="14" LineWight="8"/>
 <Arrow X="11" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
@@ -970,37 +970,37 @@
 <SignalList>
 <Signal Name="S0715" X="10" Y="13" Rotate="0" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0716" X="6" Y="13" Rotate="0" offset="1">
 <Right>
-<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0717" X="12" Y="6" Rotate="180" offset="0">
 <Right>
-<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S0718" X="8" Y="6" Rotate="180" offset="0">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
@@ -1010,13 +1010,13 @@
 <LCSList>
 <LCS Name="LCS2102" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS2101" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -1026,13 +1026,13 @@
 <LCSList>
 <LCS Name="LCS2202" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS2201" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -1042,13 +1042,13 @@
 <LCSList>
 <LCS Name="LCS2302" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS2301" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -1058,13 +1058,13 @@
 <LCSList>
 <LCS Name="LCS2402" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS2401" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -1074,13 +1074,13 @@
 <LCSList>
 <LCS Name="LCS2502" X="8" Y="6" Rotate="180" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
 <LCS Name="LCS2501" X="10" Y="12" Rotate="0" offset="1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </LCS>
@@ -1094,45 +1094,45 @@
 <SignalList>
 <Signal Name="S2001" X="10" Y="13" Rotate="0" offset="-1">
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineWight="8"/>
 <Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 <Left>
-<Bezier Color="255 242 0" StartX="11" StartY="13" EndX="7" EndY="6" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="6" EndX="7" EndY="5" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="13" EndX="7" EndY="6" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="6" EndX="7" EndY="5" LineWight="8"/>
 <Arrow X="7" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 </Signal>
 <Signal Name="S2002" X="6" Y="13" Rotate="0" offset="1">
 <Right>
-<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineWight="8"/>
 <Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineWight="8"/>
 <Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S2003" X="12" Y="6" Rotate="180" offset="0">
 <Right>
-<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Right>
 <Permiss>
-<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineWight="8"/>
 <Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
 <Signal Name="S2004" X="8" Y="6" Rotate="180" offset="0">
 <Left>
-<Bezier Color="255 242 0" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="8"/>
-<Line Color="255 242 0" StartX="11" StartY="13" EndX="11" EndY="14" LineStyle="8"/>
+<Bezier Color="255 242 0" StartX="7" StartY="6" EndX="11" EndY="13" LineWight="8"/>
+<Line Color="255 242 0" StartX="11" StartY="13" EndX="11" EndY="14" LineWight="8"/>
 <Arrow X="11" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
 </Left>
 <Permiss>
-<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineWight="8"/>
 <Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
 </Permiss>
 </Signal>
