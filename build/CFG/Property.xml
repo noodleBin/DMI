@@ -12,8 +12,8 @@
 <send time="2" />
 <active end="2" />
 <ToDown dis="10" />
-<Deptime value="12" />
-<Advance value="5" />
+<Deptime value="60" />
+<Advance value="60" />
 <Delay value="6" />
 <Maintance Displaycount="4" />
 </Other_Info>
