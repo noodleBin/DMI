@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Fault_Description_List>
+	<Fault_Description>
+		<Fault_Code>1</Fault_Code>
+		<English_Description>Transceiver 1 failed</English_Description>
+		<Chinese_Description>"接收器1故障"</Chinese_Description>
+	</Fault_Description>
+	<Fault_Description>
+		<Fault_Code>2</Fault_Code>
+		<English_Description>Transceiver 2 failed</English_Description>
+		<Chinese_Description>"接收器2故障"</Chinese_Description>
+	</Fault_Description>
+	<Fault_Description>
+		<Fault_Code>3</Fault_Code>
+		<English_Description>Tag Reader 1 failed</English_Description>
+		<Chinese_Description>"信标读取器1故障"</Chinese_Description>
+	</Fault_Description>
+	<Fault_Description>
+		<Fault_Code>4</Fault_Code>
+		<English_Description>Tag Reader 2 failed</English_Description>
+		<Chinese_Description>"信标读取器2故障"</Chinese_Description>
+	</Fault_Description>
+	<Fault_Description>
+		<Fault_Code>5</Fault_Code>
+		<English_Description>Speed sensor 1 failed</English_Description>
+		<Chinese_Description>"速度传感器1故障"</Chinese_Description>
+	</Fault_Description>
+	<Fault_Description>
+		<Fault_Code>6</Fault_Code>
+		<English_Description>Speed sensor 2 failed</English_Description>
+		<Chinese_Description>"速度传感器2故障"</Chinese_Description>
+	</Fault_Description>
+	<Fault_Description>
+		<Fault_Code>7</Fault_Code>
+		<English_Description>Speed sensor 3 failed</English_Description>
+		<Chinese_Description>"速度传感器3故障"</Chinese_Description>
+	</Fault_Description>
+	<Fault_Description>
+		<Fault_Code>8</Fault_Code>
+		<English_Description>ATP board failed</English_Description>
+		<Chinese_Description>"车载ATP故障"</Chinese_Description>
+	</Fault_Description>
+	<Fault_Description>
+		<Fault_Code>9</Fault_Code>
+		<English_Description>BIO board failed</English_Description>
+		<Chinese_Description>"BIO板故障"</Chinese_Description>
+	</Fault_Description>
+	<Fault_Description>
+		<Fault_Code>10</Fault_Code>
+		<English_Description>ATP failsafe</English_Description>
+		<Chinese_Description>"车载ATP安全失效"</Chinese_Description>
+	</Fault_Description>
+</Fault_Description_List>

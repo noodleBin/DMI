@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<Alarm_Info>
+<Alarm ID="2" PlayText="当前超速。" Priority="1" PlayTick="10"/>
+<Alarm ID="100" PlayText="DMI自检完毕，准备启动。" Priority="1" PlayTick="10"/>
+<Alarm ID="101" PlayText="DMI关闭。" Priority="1" PlayTick="10"/>
+<Alarm ID="5" PlayText="前方限速%1公里每小时。" Priority="1" PlayTick="10"/>
+<Alarm ID="6" PlayText="车载%1故障。" Priority="2" PlayTick="10"/>
+<Alarm ID="7" PlayText="DMI和车载连接断开。" Priority="2" PlayTick="10"/>
+<Alarm ID="8" PlayText="DMI和车载连接恢复。" Priority="2" PlayTick="10"/>
+<Alarm ID="9" PlayText="%1。" Priority="2" PlayTick="10"/>
+<Alarm ID="11" PlayText="磁盘空间不足，自动清理。" Priority="4" PlayTick="10"/>
+<Alarm ID="12" PlayText="自动校时%1。" Priority="4" PlayTick="10"/>
+<Alarm ID="13" PlayText="您已闯红灯。" Priority="1" PlayTick="10"/>
+<Alarm ID="14" PlayText="雷达已探测到高危障碍物。" Priority="1" PlayTick="1"/>
+<Alarm ID="15" PlayText="雷达探测到障碍物。" Priority="1" PlayTick="255"/>
+<Alarm ID="16" PlayText="进入站场图显示。" Priority="1" PlayTick="255"/>
+<Alarm ID="17" PlayText="离开站场图显示。" Priority="1" PlayTick="255"/>
+<Alarm ID="18" PlayText="距前车过近，请减速。" Priority="1" PlayTick="50"/>
+<Alarm ID="19" PlayText="注意折返。" Priority="1" PlayTick="255"/>
+<Alarm ID="20" PlayText="注意跳停。" Priority="1" PlayTick="255"/>
+<Alarm ID="21" PlayText="注意扣车。" Priority="1" PlayTick="255"/>
+<Alarm ID="22" PlayText="车辆失去定位。" Priority="1" PlayTick="60"/>
+<Alarm ID="23" PlayText="准备发车。" Priority="1" PlayTick="255"/>
+<Alarm ID="24" PlayText="车载与中心中断。" Priority="1" PlayTick="180"/>
+<Alarm ID="25" PlayText="雷达故障。" Priority="1" PlayTick="255"/>
+<Alarm ID="26" PlayText="GPS故障。" Priority="1" PlayTick="255"/>
+<Alarm ID="27" PlayText="BCM故障。" Priority="1" PlayTick="255"/>
+<Alarm ID="28" PlayText="无线信号弱。" Priority="1" PlayTick="255"/>
+<Alarm ID="29" PlayText="车载模式切换到%1。" Priority="1" PlayTick="1"/>
+<Alarm ID="30" PlayText="您已早点。" Priority="1" PlayTick="15"/>
+<Alarm ID="31" PlayText="您已晚点。" Priority="1" PlayTick="15"/>
+<Alarm ID="32" PlayText="当前限速%1公里每小时。" Priority="1" PlayTick="10"/>
+</Alarm_Info>
+

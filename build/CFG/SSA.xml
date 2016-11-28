@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<Station_Info>
+    <Station ID="1" Name="清湖站下行调头区"/>
+    <Station ID="2" Name="清湖站下行调头区" />
+    <Station ID="3" Name="清龙站下行调头区" />
+    <Station ID="4" Name="碧澜下行调头区" />
+    <Station ID="5" Name="世纪广场站上行调头区" />
+    <Station ID="6" Name="世纪广场站下行调头区" />
+    <Station ID="7" Name="锦鲤站上行调头区" />
+    <Station ID="8" Name="锦鲤站下行调头区" />
+    <Station ID="9" Name="河东站上行调头区" />
+    <Station ID="10" Name="新澜站上行调头区" />
+    <Station ID="11" Name="新澜站上行调头区" />
+    <Station ID="12" Name="大和站下行调头区" />
+    <Station ID="13" Name="高新区站上行调头区" />
+    <Station ID="14" Name="下围站上行调头区" />
+    <Station ID="15" Name="下围站上行调头区" />
+    <Station ID="16" Name="锦鲤站下行调头区" />
+    <Station ID="52" Name="大和站上行调头区" />
+    <Station ID="53" Name="大和站下行调头区" />
+    <Station ID="17" Name="清龙站" />
+    <Station ID="18" Name="清湖学校站" />
+    <Station ID="19" Name="梅龙北站" />
+    <Station ID="20" Name="碧澜站" />
+    <Station ID="21" Name="文澜站" />
+    <Station ID="22" Name="大和站" />
+    <Station ID="23" Name="世纪广场站" />
+    <Station ID="24" Name="观城站" />
+    <Station ID="25" Name="大布头站" />
+    <Station ID="26" Name="河东站" />
+    <Station ID="27" Name="石角头站" />
+    <Station ID="28" Name="清龙站" />
+    <Station ID="29" Name="清湖学校站" />
+    <Station ID="30" Name="梅龙北站" />
+    <Station ID="31" Name="碧澜站" />
+    <Station ID="32" Name="文澜站" />
+    <Station ID="33" Name="大和站" />
+    <Station ID="34" Name="世纪广场站" />
+    <Station ID="35" Name="锦鲤站" />
+	<Station ID="36" Name="大布头站" />
+	<Station ID="37" Name="河东站" />
+	<Station ID="38" Name="石角头站" />
+	<Station ID="39" Name="东庵站" />
+	<Station ID="40" Name="高新区西站" />
+	<Station ID="41" Name="高新区站" />
+	<Station ID="42" Name="高新区东站" />
+	<Station ID="43" Name="下围站" />
+	<Station ID="44" Name="大和站" />
+	<Station ID="45" Name="东庵站" />
+	<Station ID="46" Name="高新区西站" />
+	<Station ID="47" Name="高新区站" />
+	<Station ID="48" Name="高新区东站" />
+	<Station ID="49" Name="下围站" />
+	<Station ID="50" Name="车辆场出入段转换机" />
+	<Station ID="51" Name="车辆场出入段转换机" />
+</Station_Info>

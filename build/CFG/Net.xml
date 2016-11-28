@@ -1,0 +1,5 @@
+<?xml version="1.0" standalone="yes" ?>
+<Net_Info>
+  <Net ID="ELS" RemoteIP="127.0.0.1" RemotePort="12338" localPort="12334" />
+  <Net ID="DMS" RemoteIP="127.0.0.1" RemotePort="12346" localPort="12345" />
+</Net_Info>

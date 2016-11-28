@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<Station_Info>
+    <Station ID="1" Name="清湖站" />
+    <Station ID="2" Name="青龙站" />
+    <Station ID="3" Name="清湖学校站" />
+    <Station ID="4" Name="梅龙北站" />
+    <Station ID="5" Name="碧澜站" />
+    <Station ID="6" Name="文澜站" />
+    <Station ID="7" Name="大和站" />
+    <Station ID="8" Name="世纪广场站" />
+    <Station ID="9" Name="锦鲤站" />
+    <Station ID="10" Name="河西站" />
+    <Station ID="11" Name="观城站" />
+    <Station ID="12" Name="大布头站" />
+    <Station ID="13" Name="河东站" />
+    <Station ID="14" Name="石角头站" />
+    <Station ID="15" Name="新澜站" />
+    <Station ID="16" Name="东庵站" />
+	<Station ID="16" Name="高新区西站" />
+	<Station ID="16" Name="高新区站" />
+	<Station ID="16" Name="高新区东站" />
+	<Station ID="16" Name="下围站" />
+</Station_Info>

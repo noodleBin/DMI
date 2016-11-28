@@ -1,0 +1,416 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Layout_Info>
+<Signal_List>
+<Signal Name="S0101" ID="19" Left="" Right="" Permissive="17" Restric=""/>
+<Signal Name="S0102" ID="1" Left="" Right="18" Permissive="" Restric=""/>
+<Signal Name="S0103" ID="20" Left="" Right="22" Permissive="21" Restric=""/>
+<Signal Name="S0104" ID="2" Left="20" Right="" Permissive="19" Restric=""/>
+<Signal Name="S0301" ID="21" Left="" Right="" Permissive="9" Restric=""/>
+<Signal Name="S0302" ID="3" Left="" Right="11" Permissive="" Restric=""/>
+<Signal Name="S0303V" ID="22" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0304" ID="4" Left="" Right="" Permissive="10" Restric=""/>
+<Signal Name="S0701" ID="23" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0702" ID="5" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0703" ID="24" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0704" ID="6" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0705" ID="25" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0706V" ID="7" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0707V" ID="26" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0708" ID="8" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0709" ID="27" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0710" ID="9" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0711" ID="28" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0712" ID="10" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0713V" ID="42" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0714" ID="37" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0715" ID="43" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0716" ID="38" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0717" ID="44" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0718" ID="39" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0901" ID="29" Left="" Right="" Permissive="11" Restric=""/>
+<Signal Name="S0902" ID="11" Left="" Right="13" Permissive="" Restric=""/>
+<Signal Name="S0903" ID="30" Left="" Right="14" Permissive="" Restric=""/>
+<Signal Name="S0904" ID="12" Left="" Right="" Permissive="12" Restric=""/>
+<Signal Name="S1001" ID="31" Left="25" Right="" Permissive="24" Restric=""/>
+<Signal Name="S1002" ID="13" Left="23" Right="" Permissive="" Restric=""/>
+<Signal Name="S1003V" ID="32" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1004" ID="14" Left="27" Right="" Permissive="26" Restric=""/>
+<Signal Name="S1006" ID="47" Left="29" Right="" Permissive="28" Restric=""/>
+<Signal Name="S1101" ID="33" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1102V" ID="15" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1103" ID="34" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1104" ID="16" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1106" ID="48" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1501" ID="35" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1502" ID="17" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1503" ID="36" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1504" ID="18" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S2001" ID="45" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S2002" ID="40" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S2003" ID="46" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S2004" ID="41" Left="" Right="" Permissive="" Restric=""/>
+</Signal_List>
+<LCS_List>
+<OLC Name="LCS0101" ID="22" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0102" ID="1" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS0103" ID="23" Left="50" Right="51" Permissive="52" Restric="49"/>
+<OLC Name="LCS0104" ID="2" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0201" ID="24" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0202" ID="3" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0301" ID="25" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0302" ID="4" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0401" ID="26" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0402" ID="5" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0501" ID="27" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0502" ID="6" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0601" ID="28" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0602" ID="7" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0701" ID="29" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0702" ID="8" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0801" ID="30" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0802" ID="9" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0901" ID="31" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0902" ID="10" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0904" ID="42" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS1001" ID="32" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1002" ID="11" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1101" ID="33" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1102" ID="12" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1201" ID="34" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1202" ID="13" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1301" ID="35" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1302" ID="14" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS1304" ID="15" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1401" ID="36" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1402" ID="16" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1404" ID="53" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS1501" ID="37" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1502" ID="17" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1504" ID="54" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS1601" ID="38" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1602" ID="18" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1701" ID="39" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1702" ID="19" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1801" ID="40" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1802" ID="20" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1901" ID="41" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1902" ID="21" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2101" ID="48" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2102" ID="43" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2201" ID="49" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2202" ID="44" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2301" ID="50" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2302" ID="45" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2401" ID="51" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2402" ID="46" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2501" ID="52" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2502" ID="47" Left="2" Right="3" Permissive="4" Restric="1"/>
+</LCS_List>
+<ViewTemplate_LIST LineWight="4" RouteWight="8" SignlaCircleSize="1">
+<Template TemplateID="31" TemplateName="左开丁字路口">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="4"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="4"/>
+<Line Color="200 200 200" StartX="0" StartY="7" EndX="5" EndY="7" LineStyle="4"/>
+<Line Color="200 200 200" StartX="0" StartY="10" EndX="4" EndY="10" LineStyle="4"/>
+
+<ARC Color="200 200 200" StartX="11" StartY="4" EndX="14" EndY="7"  StartAngle="180" SpanAngle="90" LineStyle="4"/>
+<ARC Color="200 200 200" StartX="7" StartY="10" EndX="1" EndY="16"  StartAngle="90" SpanAngle="180" LineStyle="4"/>
+/>
+</Template>
+<Template TemplateID="1" TemplateName="直行 前方有路口">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="7" RightBottomX="18" RightBottomY="5"/>
+</Template>
+<Template TemplateID="2" TemplateName="直行交叉渡线">
+<Line Color="255    0  0" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="6"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="6"/>
+<Bezier Color="200 200 200" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="6"/>
+<Bezier Color="200 200 200" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="6"/>
+</Template>
+<Template TemplateID="21" TemplateName="直行左交叉渡线">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Bezier Color="200 200 200" StartX="7" StartY="6" EndX="11" EndY="13"/>
+</Template>
+<Template TemplateID="22" TemplateName="直行右交叉渡线">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Bezier Color="200 200 200" StartX="11" StartY="6" EndX="7" EndY="13"/>
+</Template>
+<Template TemplateID="12" TemplateName="直行交叉渡线 道岔前方有路口">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="2" RightBottomX="18" RightBottomY="5"/>
+<Bezier Color="200 200 200" StartX="7" StartY="7" EndX="11" EndY="14"/>
+<Bezier Color="200 200 200" StartX="11" StartY="7" EndX="7" EndY="14"/>
+</Template>
+<Template TemplateID="112" TemplateName="直行左渡线 道岔前方有路口">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="2" RightBottomX="18" RightBottomY="5"/>
+<Bezier Color="200 200 200" StartX="7" StartY="7" EndX="11" EndY="14"/>
+</Template>
+<Template TemplateID="122" TemplateName="直行右渡线 道岔前方有路口">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="2" RightBottomX="18" RightBottomY="5"/>
+<Bezier Color="200 200 200" StartX="11" StartY="7" EndX="7" EndY="14"/>
+</Template>
+<Template TemplateID="122" TemplateName="车辆场出入段线进出口左">
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="14" LeftTopY="0" RightBottomX="18" RightBottomY="8"/>
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="8" RightBottomX="18" RightBottomY="12"/>
+<Line Color="200 200 200" StartX="0" StartY="8" EndX="18" EndY="8" LineStyle="1"/>
+<Line Color="200 200 200" StartX="0" StartY="12" EndX="18" EndY="12" LineStyle="1"/>
+<Line Color="200 200 200" StartX="14" StartY="0" EndX="14" EndY="4" LineStyle="1"/>
+<Line Color="200 200 200" StartX="14" StartY="4" EndX="10" EndY="8" LineStyle="1"/>
+<Line Color="200 200 200" StartX="8" StartY="8" EndX="4" EndY="12" LineStyle="1"/>
+</Template>
+<Template TemplateID="122" TemplateName="车辆场出入段线进出口右">
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="4" LeftTopY="0" RightBottomX="0" RightBottomY="8"/>
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="8" RightBottomX="18" RightBottomY="12"/>
+<Line Color="200 200 200" StartX="0" StartY="8" EndX="18" EndY="8" LineStyle="1"/>
+<Line Color="200 200 200" StartX="0" StartY="12" EndX="18" EndY="12" LineStyle="1"/>
+<Line Color="200 200 200" StartX="4" StartY="0" EndX="4" EndY="4" LineStyle="1"/>
+<Line Color="200 200 200" StartX="4" StartY="4" EndX="8" EndY="8" LineStyle="1"/>
+<Line Color="200 200 200" StartX="10" StartY="8" EndX="14" EndY="12" LineStyle="1"/>
+</Template>
+</ViewTemplate_LIST>
+<ViewList>
+<View ID="1" Name="清龙路-和平路（1）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0102" X="6" Y="11" Rotate="0" offset="1"/>
+<LCS Name="LCS0101" X="10" Y="11" Rotate="0" offset="1"/>
+<LCS Name="LCS0104" X="8" Y="7" Rotate="180" offset="-1"/>
+<LCS Name="LCS0103" X="12" Y="7" Rotate="180" offset="-1"/>
+</LCSList>
+</View>
+<View ID="2" Name="清龙路-和平路（交叉）" TemplateID="2">
+<TextList>
+<Text Text="文本1" X="0" Y="0" Size="24" Color="0 0 100" Font="System" Rotate="0"/>
+<Text Text="文本2" X="3" Y="6" Size="20" Color="0 0 0" Font="Times" Rotate="90"/>
+</TextList>
+<SignalList>
+<Signal Name="S0101" X="10" Y="13" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="200 200 30" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="200 200 30" Color="200 200 30"/>
+</Permiss>
+<Left>
+<Bezier Color="200 200 30" StartX="11" StartY="14" EndX="7" EndY="7" LineStyle="1"/>
+<Line Color="200 200 30" StartX="7" StartY="7" EndX="7" EndY="5" LineStyle="1"/>
+<Arrow X="7" Y="5" Rotate="90" BrushColor="200 200 30" Color="200 200 30"/>
+</Left>
+</Signal>
+<Signal Name="S0102" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<Bezier Color="200 30 200" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="6"/>
+<Line Color="200 30 200" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="6"/>
+<Arrow X="11" Y="5" Rotate="90" BrushColor="200 30 200" Color="200 30 200"/>
+</Right>
+<Permiss>
+<Line Color="200 30 200" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="200 30 200" Color="200 30 200"/>
+</Permiss>
+</Signal>
+<Signal Name="S0103" X="12" Y="6" Rotate="180" offset="0">
+<Right>
+<Bezier Color="20 200 200" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
+<Line Color="20 200 200" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="20 200 200" Color="20 100 100"/>
+</Right>
+<Permiss>
+<Line Color="20 200 200" StartX="11" StartY="3" EndX="11" EndY="14" LineStyle="8"/>
+<Arrow X="11" Y="14" Rotate="-90" BrushColor="20 200 200" Color="20 100 100"/>
+</Permiss>
+</Signal>
+<Signal Name="S0104" X="8" Y="6" Rotate="180" offset="0">
+<Left>
+<Bezier Color="5 5 200" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="8"/>
+<Line Color="5 5 200" StartX="11" StartY="13" EndX="11" EndY="14" LineStyle="8"/>
+<Arrow X="11" Y="14" Rotate="-90" BrushColor="5 5 200" Color="5 5 200"/>
+</Left>
+<Permiss>
+<Line Color="5 5 200" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="5 5 200" Color="5 5 200"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+<View ID="3" Name="清龙路-C1（过街）（2）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0202" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS0201" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="4" Name="梅龙路-清龙路（3）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0302" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS0301" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="5" Name="梅龙路-清湖路（4）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0402" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS0401" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="6" Name="梅龙路-清湖路（右单叉）" TemplateID="22">
+<SignalList>
+<Signal Name="S0301" X="10" Y="13" Rotate="0" offset="-1"/>
+<Signal Name="S0302" X="6" Y="13" Rotate="0" offset="1"/>
+<Signal Name="S0303" X="12" Y="6" Rotate="180" offset="0"/>
+<Signal Name="S0304" X="8" Y="6" Rotate="180" offset="0"/>
+</SignalList>
+</View>
+<View ID="7" Name="梅龙路-清华东路（5）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0502" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS0501" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="8" Name="大和路-梅龙路（6）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0602" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS0601" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="9" Name="碧澜站人行过街（7）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0702" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS0701" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="10" Name="文澜站人行过街（8）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0802" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS0801" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="11" Name="大和站右单叉1" TemplateID="22">
+<SignalList>
+<Signal Name="S0701" X="10" Y="13" Rotate="0" offset="-1"/>
+<Signal Name="S0702" X="6" Y="13" Rotate="0" offset="1"/>
+<Signal Name="S0703" X="12" Y="6" Rotate="180" offset="0"/>
+<Signal Name="S0704" X="8" Y="6" Rotate="180" offset="0"/>
+</SignalList>
+</View>
+<View ID="12" Name="大和路-环观南路（9）" TemplateID="31">
+<SignalList>
+<Signal Name="S0705" X="8" Y="4" Rotate="180" offset="-1"/>
+<Signal Name="S0706" X="12" Y="4" Rotate="180" offset="1"/>
+<Signal Name="S0707" X="6" Y="14" Rotate="0" offset="0"/>
+<Signal Name="S0708" X="10" Y="14" Rotate="0" offset="0"/>
+<LCS Name="LCS0901" X="6" Y="4" Rotate="180" offset="1"/>
+<LCS Name="LCS0902" X="12" Y="14" Rotate="0" offset="1"/>
+</SignalList>
+</View>
+<View ID="13" Name="大和站右单叉2" TemplateID="22">
+<SignalList>
+<Signal Name="S0709" X="10" Y="13" Rotate="0" offset="-1"/>
+<Signal Name="S0710" X="6" Y="13" Rotate="0" offset="1"/>
+<Signal Name="S0711" X="12" Y="6" Rotate="180" offset="0"/>
+<Signal Name="S0712" X="8" Y="6" Rotate="180" offset="0"/>
+</SignalList>
+</View>
+<View ID="14" Name="大和路-C2过街（10）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1002" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS1001" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="15" Name="大和路-工业大道（11）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1102" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS1101" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="16" Name="大和路-C3过街（12）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1202" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS1201" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="17" Name="大和路-人民路（13）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1304" X="8" Y="7" Rotate="180" offset="1"/>
+<LCS Name="LCS1302" X="6" Y="11" Rotate="0" offset="1"/>
+<LCS Name="LCS1301" X="10" Y="11" Rotate="0" offset="1"/>
+</LCSList>
+</View>
+<View ID="18" Name="大和路-人民路（13）右单叉" TemplateID="31">
+<SignalList>
+<Signal Name="S0901" X="10" Y="13" Rotate="0" offset="-1">
+<Left>
+<Bezier Color="5 5 200" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="8"/>
+<Line Color="5 5 200" StartX="11" StartY="13" EndX="11" EndY="14" LineStyle="8"/>
+<Arrow X="11" Y="14" Rotate="-90" BrushColor="5 5 200" Color="5 5 200"/>
+</Left>
+<Permiss>
+<Line Color="5 5 200" StartX="11" StartY="14" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="5 5 200" Color="5 5 200"/>
+</Permiss>
+</Signal>
+<Signal Name="S0902" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<ARC Color="5 5 200" StartX="7" StartY="10" EndX="1" EndY="16" CenterX="4" CenterY="14" Angle="30" LineStyle="8"/>
+/>
+<Line Color="5 5 200" StartX="4" StartY="10" EndX="3" EndY="10" LineStyle="8"/>
+<Arrow X="3" Y="10" Rotate="180" BrushColor="5 5 200" Color="5 5 200"/>
+</Right>
+</Signal>
+<Signal Name="S0903" X="12" Y="6" Rotate="-90" offset="0"/>
+<Signal Name="S0904" X="8" Y="6" Rotate="90" offset="0">
+<Permiss>
+<Line Color="5 5 200" StartX="7" StartY="14" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="5 5 200" Color="5 5 200"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+<View ID="19" Name="车辆场出入段线进出口左" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1401" X="4" Y="14" Rotate="-90" offset="1"/>
+<LCS Name="LCS1402" X="4" Y="9" Rotate="-90" offset="1"/>
+<LCS Name="LCS1404" X="13" Y="4" Rotate="180" offset="1"/>
+</LCSList>
+<SignalList>
+<Signal Name="S1001" X="4" Y="11" Rotate="-90" offset="-1"/>
+<Signal Name="S1002" X="4" Y="7" Rotate="-90" offset="1"/>
+<Signal Name="S1003" X="7" Y="13" Rotate="90" offset="0"/>
+<Signal Name="S1004" X="13" Y="4" Rotate="180" offset="0"/>
+<Signal Name="S1006" X="15" Y="4" Rotate="180" offset="0"/>
+</SignalList>
+</View>
+</ViewList>
+<Signal_Entrance_List>
+<Signal_Entrance SignalName="LCS0101" ViewID="1" ViewRotate="0" TramX="11" TramY="16"/>
+<Signal_Entrance SignalName="LCS0102" ViewID="1" ViewRotate="0" TramX="6" TramY="14"/>
+<Signal_Entrance SignalName="LCS0103" ViewID="1" ViewRotate="180" TramX="6" TramY="8"/>
+<Signal_Entrance SignalName="LCS0104" ViewID="1" ViewRotate="180" TramX="7" TramY="2"/>
+<Signal_Entrance SignalName="S0101" ViewID="2" ViewRotate="0" TramX="11" TramY="16"/>
+<Signal_Entrance SignalName="S0102" ViewID="2" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0103" ViewID="2" ViewRotate="180" TramX="6" TramY="8"/>
+<Signal_Entrance SignalName="S0104" ViewID="2" ViewRotate="180" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0301" ViewID="6" ViewRotate="0" TramX="11" TramY="16"/>
+<Signal_Entrance SignalName="S0302" ViewID="6" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0303" ViewID="6" ViewRotate="180" TramX="6" TramY="8"/>
+<Signal_Entrance SignalName="S0304" ViewID="6" ViewRotate="180" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1301" ViewID="17" ViewRotate="0" TramX="11" TramY="16"/>
+//<Signal_Entrance SignalName="LCS1302" ViewID="17" ViewRotate="0" TramX="6" TramY="8"/>
+<Signal_Entrance SignalName="LCS1304" ViewID="17" ViewRotate="180" TramX="7" TramY="2"/>
+<Signal_Entrance SignalName="S0901" ViewID="18" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0902" ViewID="18" ViewRotate="0" TramX="7" TramY="15"/>
+//<Signal_Entrance SignalName="S0903" ViewID="18" ViewRotate="180" TramX="6" TramY="8"/>
+<Signal_Entrance SignalName="S0904" ViewID="18" ViewRotate="180" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1401" ViewID="19" ViewRotate="90" TramX="2" TramY="12"/>
+//<Signal_Entrance SignalName="LCS1402" ViewID="19" ViewRotate="0" TramX="6" TramY="8"/>
+<Signal_Entrance SignalName="LCS1404" ViewID="19" ViewRotate="180" TramX="14" TramY="2"/>
+<Signal_Entrance SignalName="S1001" ViewID="19" ViewRotate="90" TramX="2" TramY="12"/>
+//<Signal_Entrance SignalName="S1002" ViewID="19" ViewRotate="0" TramX="6" TramY="8"/>
+//<Signal_Entrance SignalName="S1003" ViewID="19" ViewRotate="180" TramX="6" TramY="8"/>
+//<Signal_Entrance SignalName="S1004" ViewID="19" ViewRotate="180" TramX="7" TramY="2"/>
+<Signal_Entrance SignalName="S1006" ViewID="19" ViewRotate="180" TramX="14" TramY="2"/>
+</Signal_Entrance_List>
+</Layout_Info>

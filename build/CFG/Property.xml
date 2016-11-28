@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<Other_Info>
+<Diffflash Value="5" />
+<Disconnect Time="3" />
+<APP Version="1.0.0" />
+<Data Version="1.0.0" />
+<SMS Displaycount="15" />
+<File PromotesizeMB="500" />
+<File ClearsizeMB="500" />
+<File SplitsizeMB="50" />
+<check time="15" />
+<send time="2" />
+<active end="2" />
+<ToDown dis="10" />
+<Deptime value="12" />
+<Advance value="5" />
+<Delay value="6" />
+<Maintance Displaycount="4" />
+</Other_Info>

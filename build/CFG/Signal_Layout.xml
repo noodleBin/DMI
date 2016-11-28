@@ -1,0 +1,1277 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Layout_Info>
+<Signal_List>
+<Signal Name="S0101" ID="19" Left="" Right="" Permissive="17" Restric=""/>
+<Signal Name="S0102" ID="1" Left="" Right="18" Permissive="" Restric=""/>
+<Signal Name="S0103" ID="20" Left="" Right="22" Permissive="21" Restric=""/>
+<Signal Name="S0104" ID="2" Left="20" Right="" Permissive="19" Restric=""/>
+<Signal Name="S0301" ID="21" Left="" Right="" Permissive="9" Restric=""/>
+<Signal Name="S0302" ID="3" Left="" Right="11" Permissive="" Restric=""/>
+<Signal Name="S0303V" ID="22" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0304" ID="4" Left="" Right="" Permissive="10" Restric=""/>
+<Signal Name="S0701" ID="23" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0702" ID="5" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0703" ID="24" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0704" ID="6" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0705" ID="25" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0706V" ID="7" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0707V" ID="26" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0708" ID="8" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0709" ID="27" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0710" ID="9" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0711" ID="28" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0712" ID="10" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0713V" ID="42" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0714" ID="37" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0715" ID="43" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0716" ID="38" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0717" ID="44" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0718" ID="39" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S0901" ID="29" Left="" Right="" Permissive="11" Restric=""/>
+<Signal Name="S0902" ID="11" Left="" Right="13" Permissive="" Restric=""/>
+<Signal Name="S0903" ID="30" Left="" Right="14" Permissive="" Restric=""/>
+<Signal Name="S0904" ID="12" Left="" Right="" Permissive="12" Restric=""/>
+<Signal Name="S1001" ID="31" Left="25" Right="" Permissive="24" Restric=""/>
+<Signal Name="S1002" ID="13" Left="23" Right="" Permissive="" Restric=""/>
+<Signal Name="S1003V" ID="32" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1004" ID="14" Left="27" Right="" Permissive="26" Restric=""/>
+<Signal Name="S1006" ID="47" Left="29" Right="" Permissive="28" Restric=""/>
+<Signal Name="S1101" ID="33" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1102V" ID="15" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1103" ID="34" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1104" ID="16" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1106" ID="48" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1501" ID="35" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1502" ID="17" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1503" ID="36" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S1504" ID="18" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S2001" ID="45" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S2002" ID="40" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S2003" ID="46" Left="" Right="" Permissive="" Restric=""/>
+<Signal Name="S2004" ID="41" Left="" Right="" Permissive="" Restric=""/>
+</Signal_List>
+<LCS_List>
+<OLC Name="LCS0101" ID="22" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0102" ID="1" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS0103" ID="23" Left="50" Right="51" Permissive="52" Restric="49"/>
+<OLC Name="LCS0104" ID="2" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0201" ID="24" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0202" ID="3" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0301" ID="25" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0302" ID="4" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0401" ID="26" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0402" ID="5" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0501" ID="27" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0502" ID="6" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0601" ID="28" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0602" ID="7" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0701" ID="29" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0702" ID="8" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0801" ID="30" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0802" ID="9" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0901" ID="31" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS0902" ID="10" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS0904" ID="42" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS1001" ID="32" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1002" ID="11" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1101" ID="33" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1102" ID="12" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1201" ID="34" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1202" ID="13" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1301" ID="35" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1302" ID="14" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS1304" ID="15" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1401" ID="36" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1402" ID="16" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1404" ID="53" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS1501" ID="37" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1502" ID="17" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1504" ID="54" Left="34" Right="35" Permissive="36" Restric="33"/>
+<OLC Name="LCS1601" ID="38" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1602" ID="18" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1701" ID="39" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1702" ID="19" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1801" ID="40" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1802" ID="20" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS1901" ID="41" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS1902" ID="21" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2101" ID="48" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2102" ID="43" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2201" ID="49" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2202" ID="44" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2301" ID="50" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2302" ID="45" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2401" ID="51" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2402" ID="46" Left="2" Right="3" Permissive="4" Restric="1"/>
+<OLC Name="LCS2501" ID="52" Left="18" Right="19" Permissive="20" Restric="17"/>
+<OLC Name="LCS2502" ID="47" Left="2" Right="3" Permissive="4" Restric="1"/>
+</LCS_List>
+<ViewTemplate_LIST LineWight="4" RouteWight="8" SignlaCircleSize="1">
+<Template TemplateID="31" TemplateName="大和路-环观南路">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="4"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="4"/>
+<Line Color="200 200 200" StartX="14" StartY="7" EndX="18" EndY="7" LineStyle="4"/>
+<Line Color="200 200 200" StartX="14" StartY="11" EndX="18" EndY="11" LineStyle="4"/>
+<ARC Color="200 200 200" StartX="11" StartY="17" EndX="17" EndY="11" StartAngle="180" SpanAngle="-90" LineStyle="4"/>
+<ARC Color="200 200 200" StartX="11" StartY="1" EndX="17" EndY="7" StartAngle="180" SpanAngle="90" LineStyle="4"/>
+<ARC Color="200 200 200" StartX="7" StartY="-3" EndX="21" EndY="11" StartAngle="180" SpanAngle="90" LineStyle="4"/>
+<ARC Color="200 200 200" StartX="7" StartY="21" EndX="21" EndY="7" StartAngle="180" SpanAngle="-90" LineStyle="4"/>
+</Template>
+<Template TemplateID="1" TemplateName="直行 前方有路口">
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="7" RightBottomX="18" RightBottomY="4"/>
+<Line Color="255 242 0" StartX="0" StartY="9" EndX="2" EndY="9" LineStyle="4"/>
+<Line Color="255 242 0" StartX="4" StartY="9" EndX="6" EndY="9" LineStyle="4"/>
+<Line Color="255 242 0" StartX="8" StartY="9" EndX="10" EndY="9" LineStyle="4"/>
+<Line Color="255 242 0" StartX="12" StartY="9" EndX="14" EndY="9" LineStyle="4"/>
+<Line Color="255 242 0" StartX="16" StartY="9" EndX="18" EndY="9" LineStyle="4"/>
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="4"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="4"/>
+</Template>
+<Template TemplateID="2" TemplateName="直行交叉渡线">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="4"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="4"/>
+<Bezier Color="200 200 200" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="4"/>
+<Bezier Color="200 200 200" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="4"/>
+</Template>
+<Template TemplateID="21" TemplateName="直行左交叉渡线">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Bezier Color="200 200 200" StartX="7" StartY="6" EndX="11" EndY="13"/>
+</Template>
+<Template TemplateID="22" TemplateName="直行右交叉渡线">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="4"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="4"/>
+<Bezier Color="200 200 200" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="4"/>
+</Template>
+<Template TemplateID="12" TemplateName="直行交叉渡线 道岔前方有路口">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="2" RightBottomX="18" RightBottomY="5"/>
+<Bezier Color="200 200 200" StartX="7" StartY="7" EndX="11" EndY="14"/>
+<Bezier Color="200 200 200" StartX="11" StartY="7" EndX="7" EndY="14"/>
+</Template>
+<Template TemplateID="112" TemplateName="直行左渡线 道岔前方有路口">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="2" RightBottomX="18" RightBottomY="5"/>
+<Bezier Color="200 200 200" StartX="7" StartY="7" EndX="11" EndY="14"/>
+</Template>
+<Template TemplateID="123" TemplateName="直行右渡线 道岔前方有路口">
+<Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineStyle="1"/>
+<Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineStyle="1"/>
+<Rect BrushColor="55 55 55" PenColor="55 55 55" LeftTopX="0" LeftTopY="2" RightBottomX="18" RightBottomY="5"/>
+<Bezier Color="200 200 200" StartX="11" StartY="7" EndX="7" EndY="14"/>
+</Template>
+<Template TemplateID="122" TemplateName="车辆场出入段线进出口左">
+<Line Color="200 200 200" StartX="0" StartY="7" EndX="18" EndY="7" LineStyle="4"/>
+<Line Color="200 200 200" StartX="0" StartY="11" EndX="18" EndY="11" LineStyle="4"/>
+<Line Color="200 200 200" StartX="14" StartY="0" EndX="14" EndY="3" LineStyle="4"/>
+<Line Color="200 200 200" StartX="14" StartY="3" EndX="10" EndY="7" LineStyle="4"/>
+<Line Color="200 200 200" StartX="8" StartY="7" EndX="4" EndY="11" LineStyle="4"/>
+</Template>
+<Template TemplateID="124" TemplateName="车辆场出入段线进出口右">
+<Line Color="200 200 200" StartX="0" StartY="7" EndX="18" EndY="7" LineStyle="4"/>
+<Line Color="200 200 200" StartX="0" StartY="11" EndX="18" EndY="11" LineStyle="4"/>
+<Line Color="200 200 200" StartX="4" StartY="0" EndX="4" EndY="3" LineStyle="4"/>
+<Line Color="200 200 200" StartX="4" StartY="3" EndX="8" EndY="7" LineStyle="4"/>
+<Line Color="200 200 200" StartX="10" StartY="7" EndX="14" EndY="11" LineStyle="4"/>
+</Template>
+</ViewTemplate_LIST>
+<ViewList>
+<View ID="1" Name="清龙路-和平路（1）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0102" X="6" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS0101" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS0104" X="8" Y="6" Rotate="180" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS0103" X="12" Y="6" Rotate="180" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="2" Name="清龙路-和平路（交叉）" TemplateID="2">
+<TextList>
+<Text Text="文本1" X="0" Y="0" Size="24" Color="0 0 100" Font="System" Rotate="0"/>
+<Text Text="文本2" X="3" Y="6" Size="20" Color="0 0 0" Font="Times" Rotate="90"/>
+</TextList>
+<SignalList>
+<Signal Name="S0101" X="10" Y="13" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Left>
+<Bezier Color="255 242 0" StartX="11" StartY="13" EndX="7" EndY="6" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="6" EndX="7" EndY="5" LineStyle="8"/>
+<Arrow X="7" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</Signal>
+<Signal Name="S0102" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="6"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="6"/>
+<Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0103" X="12" Y="6" Rotate="180" offset="0">
+<Right>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0104" X="8" Y="6" Rotate="180" offset="0">
+<Left>
+<Bezier Color="255 242 0" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="13" EndX="11" EndY="14" LineStyle="8"/>
+<Arrow X="11" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+<View ID="3" Name="清龙路-C1（过街）（2）" TemplateID="1">`
+<LCSList>
+<LCS Name="LCS0202" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS0201" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="4" Name="梅龙路-清龙路（3）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0302" X="8" Y="6" Rotate="180" offset="1">
+<Right>
+<Line Color="255 242 0" StartX="7" StartY="3" EndX="7" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="7" EndX="4" EndY="7" LineStyle="8"/>
+<Arrow X="4" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</LCS>
+<LCS Name="LCS0301" X="10" Y="12" Rotate="0" offset="1">
+<Left>
+<Line Color="255 242 0" StartX="11" StartY="16" EndX="11" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="11" EndX="8" EndY="11" LineStyle="8"/>
+<Arrow X="8" Y="11" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</LCS>
+</LCSList>
+</View>
+<View ID="5" Name="梅龙路-清湖路（4）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0402" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS0401" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="6" Name="梅龙路-清湖路（右单叉）" TemplateID="22">
+<SignalList>
+<Signal Name="S0301" X="10" Y="13" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0302" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0303V" X="12" Y="6" Rotate="180" offset="0">
+</Signal>
+<Signal Name="S0304" X="8" Y="6" Rotate="180" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+<View ID="7" Name="梅龙路-清华东路（5）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0502" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS0501" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="8" Name="大和路-梅龙路（6）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0602" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS0601" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="9" Name="碧澜站人行过街（7）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0702" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS0701" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="10" Name="文澜站人行过街（8）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS0802" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS0801" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="11" Name="大和站右单叉1" TemplateID="22">
+<SignalList>
+<Signal Name="S0701" X="10" Y="13" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0702" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0703" X="12" Y="6" Rotate="180" offset="0">
+<Right>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0704" X="8" Y="6" Rotate="180" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+<View ID="12" Name="大和路-环观南路（9）" TemplateID="31">
+<SignalList>
+<Signal Name="S0705" X="10" Y="14" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Right>
+<ARC Color="255 242 0" StartX="11" StartY="17" EndX="17" EndY="11" StartAngle="180" SpanAngle="-90" LineStyle="8"/> 
+<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="14" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="15" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</Signal>
+<Signal Name="S0706V" X="6" Y="14" Rotate="" offset="1"/>
+<Signal Name="S0707V" X="12" Y="4" Rotate="180" offset="0"/>
+<Signal Name="S0708" X="8" Y="4" Rotate="180" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Left>
+<ARC Color="255 242 0" StartX="7" StartY="-3" EndX="21" EndY="11" StartAngle="180" SpanAngle="90" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="0" EndX="7" EndY="5.5" LineStyle="8"/>
+<Arrow X="15" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</Signal>
+<Signal Name="S0713V" X="14" Y="12" Rotate="-90" offset="0"/>
+<Signal Name="S0714" X="14" Y="8" Rotate="-90" offset="0">
+<Right>
+<ARC Color="255 242 0" StartX="11" StartY="1" EndX="17" EndY="7" StartAngle="180" SpanAngle="90" LineStyle="8"/> 
+<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="3" EndX="11" EndY="4" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Left>
+<ARC Color="255 242 0" StartX="7" StartY="21" EndX="21" EndY="7" StartAngle="180" SpanAngle="-90" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="14" EndX="7" EndY="15" LineStyle="8"/>
+<Arrow X="7" Y="15" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</Signal>
+</SignalList>
+<LCSList>
+<LCS Name="LCS0901" X="12" Y="14" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Right>
+<ARC Color="255 242 0" StartX="11" StartY="17" EndX="17" EndY="11" StartAngle="180" SpanAngle="-90" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="14" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="15" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</LCS>
+<LCS Name="LCS0902" X="6" Y="4" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Left>
+<ARC Color="255 242 0" StartX="7" StartY="-3" EndX="21" EndY="11" StartAngle="180" SpanAngle="90" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="11" EndX="15" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="0" EndX="7" EndY="5.5" LineStyle="8"/>
+<Arrow X="15" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</LCS>
+<LCS Name="LCS0904" X="14" Y="6" Rotate="-90" offset="1">
+<Right>
+<ARC Color="255 242 0" StartX="11" StartY="1" EndX="17" EndY="7" StartAngle="180" SpanAngle="90" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="3" EndX="11" EndY="4" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Left>
+<ARC Color="255 242 0" StartX="7" StartY="21" EndX="21" EndY="7" StartAngle="180" SpanAngle="-90" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="7" EndX="15" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="14" EndX="7" EndY="15" LineStyle="8"/>
+<Arrow X="7" Y="15" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</LCS>
+</LCSList>
+</View>
+<View ID="13" Name="大和站右单叉2" TemplateID="22">
+<SignalList>
+<Signal Name="S0709" X="10" Y="13" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0710" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0711" X="12" Y="6" Rotate="180" offset="0">
+<Right>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0712" X="8" Y="6" Rotate="180" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+<View ID="14" Name="大和路-C2过街（10）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1002" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS1001" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="15" Name="大和路-工业大道（11）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1102" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS1101" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="16" Name="大和路-C3过街（12）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1202" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS1201" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="17" Name="大和路-人民路（13）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1304" X="8" Y="6" Rotate="180" offset="1">
+<Left>
+<Line Color="255 242 0" StartX="7" StartY="3" EndX="7" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Arrow X="10" Y="7" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</LCS>
+<LCS Name="LCS1302" X="6" Y="12" Rotate="0" offset="1">
+<Right>
+<Line Color="255 242 0" StartX="7" StartY="16" EndX="7" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="11" EndX="10" EndY="11" LineStyle="8"/>
+<Arrow X="10" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</LCS>
+<LCS Name="LCS1301" X="10" Y="12" Rotate="0" offset="1">
+<Right>
+<Line Color="255 242 0" StartX="11" StartY="16" EndX="11" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="11" EndX="14" EndY="11" LineStyle="8"/>
+<Arrow X="14" Y="11" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</LCS>
+</LCSList>
+</View>
+<View ID="18" Name="大和路-人民路（13）右单叉" TemplateID="22">
+<SignalList>
+<Signal Name="S0901" X="10" Y="13" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0902" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0903" X="12" Y="6" Rotate="180" offset="0">
+<Right>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0904" X="8" Y="6" Rotate="180" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+<View ID="19" Name="车辆场出入段线进出口左" TemplateID="122">
+<LCSList>
+<LCS Name="LCS1401" X="4" Y="12" Rotate="90" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Arrow X="16" Y="11" Rotate="0" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Left>
+<Line Color="255 242 0" StartX="4" StartY="11" EndX="8" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="3" StartY="11" EndX="4" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="9" EndY="7" LineStyle="8"/>
+<Arrow X="9" Y="7" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</LCS>
+<LCS Name="LCS1402" X="4" Y="8" Rotate="90" offset="1">
+<Left>
+<Line Color="255 242 0" StartX="2" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="3" EndX="14" EndY="2" LineStyle="8"/>
+<Arrow X="14" Y="2" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</LCS>
+<LCS Name="LCS1404" X="13" Y="3" Rotate="180" offset="1">
+<Right>
+<Line Color="255 242 0" StartX="9" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="2" EndX="14" EndY="3" LineStyle="8"/>
+<Arrow X="9" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</LCS>
+</LCSList>
+<SignalList>
+<Signal Name="S1001" X="4" Y="10" Rotate="90" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Arrow X="16" Y="11" Rotate="0" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Left>
+<Line Color="255 242 0" StartX="4" StartY="11" EndX="8" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="3" StartY="11" EndX="4" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="9" EndY="7" LineStyle="8"/>
+<Arrow X="9" Y="7" Rotate="0" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</Signal>
+<Signal Name="S1002" X="4" Y="6" Rotate="90" offset="1">
+<Left>
+<Line Color="255 242 0" StartX="2" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="3" EndX="14" EndY="2" LineStyle="8"/>
+<Arrow X="14" Y="2" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</Signal>
+<Signal Name="S1003V" X="8" Y="12" Rotate="-90" offset="0"/>
+<Signal Name="S1004" X="14" Y="8" Rotate="-90" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="15" StartY="7" EndX="4" EndY="7" LineStyle="8"/>
+<Arrow X="4" Y="7" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Left>
+<Line Color="255 242 0" StartX="15" StartY="7" EndX="8" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="4" StartY="11" EndX="3" EndY="11" LineStyle="8"/>
+<Arrow X="3" Y="11" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</Signal>
+<Signal Name="S1006" X="15" Y="3" Rotate="180" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="9" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="34 177 76" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="14" StartY="2" EndX="14" EndY="3" LineStyle="8"/>
+<Arrow X="9" Y="7" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Left>
+<Line Color="255 242 0" StartX="6" StartY="9" EndX="8" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="14" StartY="2" EndX="14" EndY="3" LineStyle="8"/>
+<Arrow X="6" Y="9" Rotate="-135" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</Signal>
+</SignalList>
+</View>
+<View ID="20" Name="车辆场出入段线进出口右" TemplateID="124">
+<LCSList>
+<LCS Name="LCS1501" X="14" Y="10" Rotate="-90" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Arrow X="2" Y="11" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Right>
+<Line Color="255 242 0" StartX="9" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="15" StartY="11" EndX="14" EndY="11" LineStyle="8"/>
+<Arrow X="9" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</LCS>
+<LCS Name="LCS1502" X="14" Y="6" Rotate="-90" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="2" StartY="7" EndX="16" EndY="7" LineStyle="8"/>
+<Arrow X="2" Y="7" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Right>
+<Line Color="255 242 0" StartX="16" StartY="7" EndX="8" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineStyle="8"/>
+<Arrow X="4" Y="2" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</LCS>
+<LCS Name="LCS1504" X="3" Y="3" Rotate="180" offset="1">
+<Left>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="12" EndY="9" LineStyle="8"/>
+<Arrow X="12" Y="9" Rotate="-45" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</LCS>
+</LCSList>
+<SignalList>
+<Signal Name="S1101" X="8" Y="12" Rotate="90" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Arrow X="16" Y="11" Rotate="0" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S1102V" X="4" Y="8" Rotate="90" offset="1"/>
+<Signal Name="S1103" X="14" Y="12" Rotate="-90" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="2" StartY="11" EndX="16" EndY="11" LineStyle="8"/>
+<Arrow X="2" Y="11" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Right>
+<Line Color="255 242 0" StartX="9" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="14" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="15" StartY="11" EndX="14" EndY="11" LineStyle="8"/>
+<Arrow X="9" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</Signal>
+<Signal Name="S1104" X="14" Y="8" Rotate="-90" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="2" StartY="7" EndX="16" EndY="7" LineStyle="8"/>
+<Arrow X="2" Y="7" Rotate="180" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Right>
+<Line Color="255 242 0" StartX="16" StartY="7" EndX="8" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineStyle="8"/>
+<Arrow X="4" Y="2" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</Signal>
+<Signal Name="S1106" X="5" Y="3" Rotate="180" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="4" StartY="2" EndX="4" EndY="3" LineStyle="8"/>
+<Line Color="34 177 76" StartX="4" StartY="3" EndX="8" EndY="7" LineStyle="8"/>
+<Line Color="34 177 76" StartX="8" StartY="7" EndX="9" EndY="7" LineStyle="8"/>
+<Arrow X="9" Y="7" Rotate="0" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Right>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="4" EndY="3" LineStyle="8"/>
+<Line Color="255 242 0" StartX="4" StartY="3" EndX="4" EndY="2" LineStyle="8"/>
+<Line Color="255 242 0" StartX="8" StartY="7" EndX="10" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="10" StartY="7" EndX="12" EndY="9" LineStyle="8"/>
+<Arrow X="12" Y="9" Rotate="-45" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</Signal>
+</SignalList>
+</View>
+<View ID="21" Name="人民路-环观中路（16）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1602" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS1601" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="22" Name="人民路-平安路（17）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1702" X="8" Y="6" Rotate="180" offset="1">
+<Right>
+<Line Color="255 242 0" StartX="7" StartY="3" EndX="7" EndY="7" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="7" EndX="4" EndY="7" LineStyle="8"/>
+<Arrow X="4" Y="7" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+</LCS>
+<LCS Name="LCS1701" X="10" Y="12" Rotate="0" offset="1">
+<Left>
+<Line Color="255 242 0" StartX="11" StartY="16" EndX="11" EndY="11" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="11" EndX="8" EndY="11" LineStyle="8"/>
+<Arrow X="8" Y="11" Rotate="180" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</LCS>
+</LCSList>
+</View>
+<View ID="23" Name="平安路-安元路（18）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1802" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS1801" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="24" Name="石角头站过街路口（19）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS1902" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS1901" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="25" Name="石角头站过街路口（交叉）" TemplateID="2">
+<TextList>
+<Text Text="文本1" X="0" Y="0" Size="24" Color="0 0 100" Font="System" Rotate="0"/>
+<Text Text="文本2" X="3" Y="6" Size="20" Color="0 0 0" Font="Times" Rotate="90"/>
+</TextList>
+<SignalList>
+<Signal Name="S1501" X="10" Y="13" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Left>
+<Bezier Color="255 242 0" StartX="11" StartY="13" EndX="7" EndY="6" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="6" EndX="7" EndY="5" LineStyle="8"/>
+<Arrow X="7" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</Signal>
+<Signal Name="S1502" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="6"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="6"/>
+<Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S1503" X="12" Y="6" Rotate="180" offset="0">
+<Right>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S1504" X="8" Y="6" Rotate="180" offset="0">
+<Left>
+<Bezier Color="255 242 0" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="13" EndX="11" EndY="14" LineStyle="8"/>
+<Arrow X="11" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+<View ID="26" Name="（左边）环观南路C4（过街）（21）右单叉" TemplateID="22">
+<SignalList>
+<Signal Name="S0715" X="10" Y="13" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0716" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0717" X="12" Y="6" Rotate="180" offset="0">
+<Right>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S0718" X="8" Y="6" Rotate="180" offset="0">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+<View ID="27" Name="环观南路C4（过街）（21）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS2102" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS2101" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="28" Name="环观南路C5（过街）（22）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS2202" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS2201" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="29" Name="环观南路-2号路（23）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS2302" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS2301" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="30" Name="环观南路-平安路（24）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS2402" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS2401" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="31" Name="环观南路-五和大道（25）" TemplateID="1">
+<LCSList>
+<LCS Name="LCS2502" X="8" Y="6" Rotate="180" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+<LCS Name="LCS2501" X="10" Y="12" Rotate="0" offset="1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</LCS>
+</LCSList>
+</View>
+<View ID="32" Name="环观南路-五和大道（交叉）" TemplateID="2">
+<TextList>
+<Text Text="文本1" X="0" Y="0" Size="24" Color="0 0 100" Font="System" Rotate="0"/>
+<Text Text="文本2" X="3" Y="6" Size="20" Color="0 0 0" Font="Times" Rotate="90"/>
+</TextList>
+<SignalList>
+<Signal Name="S2001" X="10" Y="13" Rotate="0" offset="-1">
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="16" EndX="11" EndY="3" LineStyle="8"/>
+<Arrow X="11" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+<Left>
+<Bezier Color="255 242 0" StartX="11" StartY="13" EndX="7" EndY="6" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="6" EndX="7" EndY="5" LineStyle="8"/>
+<Arrow X="7" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+</Signal>
+<Signal Name="S2002" X="6" Y="13" Rotate="0" offset="1">
+<Right>
+<Bezier Color="255 242 0" StartX="7" StartY="13" EndX="11" EndY="6" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="6" EndX="11" EndY="5" LineStyle="8"/>
+<Arrow X="11" Y="5" Rotate="90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="16" EndX="7" EndY="3" LineStyle="8"/>
+<Arrow X="7" Y="3" Rotate="90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S2003" X="12" Y="6" Rotate="180" offset="0">
+<Right>
+<Bezier Color="255 242 0" StartX="11" StartY="6" EndX="7" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="7" StartY="13" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Right>
+<Permiss>
+<Line Color="34 177 76" StartX="11" StartY="2" EndX="11" EndY="15" LineStyle="8"/>
+<Arrow X="11" Y="15" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+<Signal Name="S2004" X="8" Y="6" Rotate="180" offset="0">
+<Left>
+<Bezier Color="255 242 0" StartX="7" StartY="6" EndX="11" EndY="13" LineStyle="8"/>
+<Line Color="255 242 0" StartX="11" StartY="13" EndX="11" EndY="14" LineStyle="8"/>
+<Arrow X="11" Y="14" Rotate="-90" BrushColor="255 242 0" Color="255 242 0"/>
+</Left>
+<Permiss>
+<Line Color="34 177 76" StartX="7" StartY="3" EndX="7" EndY="14" LineStyle="8"/>
+<Arrow X="7" Y="14" Rotate="-90" BrushColor="34 177 76" Color="34 177 76"/>
+</Permiss>
+</Signal>
+</SignalList>
+</View>
+</ViewList>
+<Signal_Entrance_List>
+<Signal_Entrance SignalName="LCS0101" ViewID="1" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0102" ViewID="1" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="LCS0103" ViewID="1" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="LCS0104" ViewID="1" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S0101" ViewID="2" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0102" ViewID="2" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0103" ViewID="2" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0104" ViewID="2" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS0201" ViewID="3" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0202" ViewID="3" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS0301" ViewID="4" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0302" ViewID="4" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS0401" ViewID="5" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0402" ViewID="5" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S0301" ViewID="6" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0302" ViewID="6" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0303V" ViewID="6" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0304" ViewID="6" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS0501" ViewID="7" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0502" ViewID="7" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS0601" ViewID="8" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0602" ViewID="8" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS0701" ViewID="9" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0702" ViewID="9" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS0801" ViewID="10" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0802" ViewID="10" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S0701" ViewID="11" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0702" ViewID="11" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0703" ViewID="11" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0704" ViewID="11" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S0705" ViewID="12" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0706V" ViewID="12" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0707V" ViewID="12" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0708" ViewID="12" ViewRotate="180" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0713V" ViewID="12" ViewRotate="90" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0714" ViewID="12" ViewRotate="90" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0901" ViewID="12" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0902" ViewID="12" ViewRotate="180" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS0904" ViewID="12" ViewRotate="90" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S0709" ViewID="13" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0710" ViewID="13" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0711" ViewID="13" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0712" ViewID="13" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS1001" ViewID="14" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1002" ViewID="14" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS1101" ViewID="15" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1102" ViewID="15" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS1201" ViewID="16" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1202" ViewID="16" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS1301" ViewID="17" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1302" ViewID="17" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="LCS1304" ViewID="17" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S0901" ViewID="18" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0902" ViewID="18" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0903" ViewID="18" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0904" ViewID="18" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S1001" ViewID="19" ViewRotate="-90" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S1002" ViewID="19" ViewRotate="-90" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S1003V" ViewID="19" ViewRotate="90" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S1004" ViewID="19" ViewRotate="90" TramX="11" TramY="14"/>
+<Signal_Entrance SignalName="S1006" ViewID="19" ViewRotate="180" TramX="4" TramY="16"/>
+<Signal_Entrance SignalName="LCS1401" ViewID="19" ViewRotate="-90" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1402" ViewID="19" ViewRotate="-90" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="LCS1404" ViewID="19" ViewRotate="180" TramX="4" TramY="16"/>
+
+<Signal_Entrance SignalName="S1101" ViewID="20" ViewRotate="-90" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S1102V" ViewID="20" ViewRotate="-90" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S1103" ViewID="20" ViewRotate="90" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S1104" ViewID="20" ViewRotate="90" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S1106" ViewID="20" ViewRotate="180" TramX="14" TramY="16"/>
+<Signal_Entrance SignalName="LCS1501" ViewID="20" ViewRotate="90" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="LCS1502" ViewID="20" ViewRotate="90" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1504" ViewID="20" ViewRotate="180" TramX="14" TramY="16"/>
+
+<Signal_Entrance SignalName="LCS1601" ViewID="21" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1602" ViewID="21" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS1701" ViewID="22" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1702" ViewID="22" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS1801" ViewID="23" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1802" ViewID="23" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS1901" ViewID="24" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS1902" ViewID="24" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S1501" ViewID="25" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S1502" ViewID="25" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S1503" ViewID="25" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S1504" ViewID="25" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S0715" ViewID="26" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S0716" ViewID="26" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0717" ViewID="26" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S0718" ViewID="26" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS2101" ViewID="27" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS2102" ViewID="27" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS2201" ViewID="28" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS2202" ViewID="28" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS2301" ViewID="29" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS2302" ViewID="29" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS2401" ViewID="30" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS2402" ViewID="30" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="LCS2501" ViewID="31" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="LCS2502" ViewID="31" ViewRotate="180" TramX="11" TramY="15"/>
+
+<Signal_Entrance SignalName="S2001" ViewID="32" ViewRotate="0" TramX="11" TramY="15"/>
+<Signal_Entrance SignalName="S2002" ViewID="32" ViewRotate="0" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S2003" ViewID="32" ViewRotate="180" TramX="7" TramY="15"/>
+<Signal_Entrance SignalName="S2004" ViewID="32" ViewRotate="180" TramX="11" TramY="15"/>
+</Signal_Entrance_List>
+</Layout_Info>

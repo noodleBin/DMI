@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<Schedule>
+    <Schedule ID="0" Name="夏季早高峰计划" />
+    <Schedule ID="1" Name="冬季早高峰计划" />
+    <Schedule ID="2" Name="平日晚高峰计划" />
+    <Schedule ID="3" Name="周末平峰计划" />
+    <Schedule ID="4" Name="节假日高峰计划" />
+    <Schedule ID="5" Name="保留计划" />
+</Schedule>
