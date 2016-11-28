@@ -131,7 +131,8 @@
 <Template TemplateID="2" TemplateName="直行交叉渡线">
 <Line Color="200 200 200" StartX="7" StartY="0" EndX="7" EndY="18" LineWight="4"/>
 <Line Color="200 200 200" StartX="11" StartY="0" EndX="11" EndY="18" LineWight="4"/>
-<Bezier Color="200 200 200" StartX="7" StartY="6" EndX="11" EndY="13" LineWight="4"/>
+<Bezier Color="200 200 200" StartX="7" StartY="6" EndX="11" EndY="13" Control1X="6" Control1Y="9"
+Control2X="14" Control2Y="10" LineWight="4"/>
 <Bezier Color="200 200 200" StartX="11" StartY="6" EndX="7" EndY="13" LineWight="4"/>
 </Template>
 <Template TemplateID="21" TemplateName="直行左交叉渡线">

@@ -120,17 +120,32 @@ void TLEEvents::drawShape(QPainter* painter,Shape sh,QString name)
                                      colors.at(1).toUInt(),
                                      colors.at(2).toUInt()),
                               sh.list_Attr->value("LineWight").toUInt()));
-
+        painter->setBrush(Qt::NoBrush);
         QPoint begin(sh.list_Attr->value("StartX").toUInt()*grid,
                      sh.list_Attr->value("StartY").toUInt()*grid);
         QPoint end( sh.list_Attr->value("EndX").toUInt()*grid,
                     sh.list_Attr->value("EndY").toUInt()*grid);
-        QPoint c1(sh.list_Attr->value("StartX").toUInt()*grid,
-                  (sh.list_Attr->value("StartY").toUInt()+
-                   sh.list_Attr->value("EndY").toUInt())*grid/2 );
-        QPoint c2(sh.list_Attr->value("EndX").toUInt()*grid,
-                  (sh.list_Attr->value("StartY").toUInt()+
-                   sh.list_Attr->value("EndY").toUInt())*grid/2 );
+
+        QPoint c1,c2;
+        if(sh.list_Attr->contains("Control1X")&&sh.list_Attr->contains("Control2X")
+                &&sh.list_Attr->contains("Control1Y")&&sh.list_Attr->contains("Control2Y")   )
+        {
+            c1=QPoint(sh.list_Attr->value("Control1X").toUInt()*grid,
+                sh.list_Attr->value("Control1Y").toUInt()*grid );
+            c2=QPoint(sh.list_Attr->value("Control2X").toUInt()*grid,
+                sh.list_Attr->value("Control2Y").toUInt()*grid );
+
+        }
+        else
+        {
+
+            c1=QPoint(sh.list_Attr->value("StartX").toUInt()*grid,
+                (sh.list_Attr->value("StartY").toUInt()+
+                 sh.list_Attr->value("EndY").toUInt())*grid/2 );
+            c2=QPoint(sh.list_Attr->value("EndX").toUInt()*grid,
+                (sh.list_Attr->value("StartY").toUInt()+
+                 sh.list_Attr->value("EndY").toUInt())*grid/2 );
+        }
         QPainterPath pp(begin);
         pp.cubicTo(c1,c2,end);
         painter->drawPath(pp);
@@ -524,7 +539,7 @@ void TLEEvents::drawSigName(QPainter* painter)
                 painter->drawText(QRect((si.x)*grid+5,(si.y)*grid-7,width(),grid),Qt::AlignLeft,si.name);
                 break;
             case -90:
-                painter->drawText(QRect((si.x-1)*grid-20,(si.y)*grid-8,width(),grid),Qt::AlignLeft,si.name);
+                painter->drawText(QRect((si.x-1)*grid-grid*2,(si.y)*grid-8,width(),grid),Qt::AlignLeft,si.name);
                 break;
             case 180:
                 painter->drawText(QRect((si.x-1)*grid,(si.y+1)*grid-15,width(),grid),Qt::AlignLeft,si.name);
@@ -551,19 +566,19 @@ void TLEEvents:: drawSignal(quint8 x,quint8 y,qint16 rotate,quint8 status,QPaint
     switch(status)
     {
     case 1:
-        painter->setPen(QPen(QColor(Qt::red),6));
+        painter->setPen(QPen(QColor(Qt::red),grid/4));
         painter->drawLine(0-grid/2+4,grid/2,grid/2-4,grid/2);
         break;
     case 2:
-        painter->setPen(QPen(QColor(Qt::green),6));
+        painter->setPen(QPen(QColor(Qt::green),grid/4));
         painter->drawLine(0,0+4,0,grid-4);
         break;
     case 3:
-        painter->setPen(QPen(QColor(Qt::yellow),6));
+        painter->setPen(QPen(QColor(Qt::yellow),grid/4));
         painter->drawLine(0-grid/4,grid/4,grid/4,3*grid/4);
         break;
     case 4 :
-        painter->setPen(QPen(QColor(Qt::yellow),6));
+        painter->setPen(QPen(QColor(Qt::yellow),grid/4));
         painter->drawLine(grid/4,grid/4,0-grid/4,3*grid/4);
         break;
     }
