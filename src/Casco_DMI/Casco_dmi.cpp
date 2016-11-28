@@ -514,7 +514,7 @@ void Casco_DMI::initDialog()
 #endif
 #ifdef Baseline_2_0
     dialshutdown=new DialogShutdown(wid);
-    dialshutdown->setGeometry(xpos+585,ypos+520,dialshutdown->width(),dialshutdown->height());
+    dialshutdown->setGeometry(xpos+585,ypos+550,dialshutdown->width(),dialshutdown->height());
 #endif
 #ifndef Baseline_2_0
     dialcommstatus = new DialogCommstatus(wid);

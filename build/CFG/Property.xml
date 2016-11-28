@@ -9,11 +9,11 @@
 <File ClearsizeMB="500" />
 <File SplitsizeMB="50" />
 <check time="15" />
-<send time="2" />
+<send time="3" />
 <active end="2" />
-<ToDown dis="10" />
-<Deptime value="60" />
+<ToDown dis="50" />
+<Deptime value="12" />
 <Advance value="60" />
-<Delay value="6" />
+<Delay value="60" />
 <Maintance Displaycount="4" />
 </Other_Info>

@@ -6135,7 +6135,7 @@ background-color: rgb(255, 255, 255，0);</string>
     <widget class="QLabel" name="btn_mute">
      <property name="geometry">
       <rect>
-       <x>230</x>
+       <x>228</x>
        <y>5</y>
        <width>64</width>
        <height>64</height>
@@ -6210,7 +6210,7 @@ background-color: rgb(255, 255, 255，0);</string>
     <widget class="QLabel" name="btn_input">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>20</x>
        <y>5</y>
        <width>64</width>
        <height>64</height>
@@ -6235,7 +6235,7 @@ background-color: rgb(255, 255, 255，0);</string>
     <widget class="QLabel" name="pic_pantostatus">
      <property name="geometry">
       <rect>
-       <x>340</x>
+       <x>330</x>
        <y>5</y>
        <width>64</width>
        <height>64</height>
@@ -6285,7 +6285,7 @@ background-color: rgb(255, 255, 255，0);</string>
     <widget class="QLabel" name="btn_radar_setting">
      <property name="geometry">
       <rect>
-       <x>120</x>
+       <x>122</x>
        <y>5</y>
        <width>64</width>
        <height>64</height>
