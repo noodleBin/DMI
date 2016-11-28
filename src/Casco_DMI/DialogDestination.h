@@ -8,7 +8,7 @@
 #define DIALOGDESTINATION_H
 
 #include <QDialog>
-
+#include <QKeyEvent>
 namespace Ui {
 class DialogDestination;
 }
@@ -18,6 +18,7 @@ class DialogDestination : public QDialog
     Q_OBJECT
 protected:
     void showEvent(QShowEvent *e);
+    bool eventFilter(QObject *, QEvent *);
 public:
     explicit DialogDestination(QWidget *parent = 0);
     ~DialogDestination();

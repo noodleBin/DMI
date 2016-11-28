@@ -8,6 +8,7 @@
 #define DIALOGELSMODESELECTION_H
 
 #include <QDialog>
+#include <QKeyEvent>
 
 namespace Ui {
 class DialogELSModeSelection;
@@ -26,7 +27,8 @@ private slots:
     void on_btn_ok_clicked();
 
     void on_btn_cancel_clicked();
-
+protected:
+    bool eventFilter(QObject *, QEvent *);
 private:
     Ui::DialogELSModeSelection *ui;
 };

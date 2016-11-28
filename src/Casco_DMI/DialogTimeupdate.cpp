@@ -18,6 +18,7 @@ DialogTimeUpdate::DialogTimeUpdate(QWidget *parent) :
     QTime time= QTime::currentTime();
     ui->timeEdit->setTime(time);
     this->setWindowFlags(Qt::FramelessWindowHint|Qt::CoverWindow);
+    this->installEventFilter(this);
 }
 
 DialogTimeUpdate::~DialogTimeUpdate()
@@ -44,4 +45,31 @@ void DialogTimeUpdate::on_timeEdit_timeChanged(const QTime &time)
     QString temp=time.toString("hh:mm:ss");
     //  QString temp= QString::number(h)+":"+QString::number(m)+":"+QString::number(s);
     ui->lbl_time->setText(temp);
+}
+
+
+
+bool DialogTimeUpdate::eventFilter(QObject *obj, QEvent *event)
+{
+    if(event->type()==QEvent::KeyRelease)
+    {
+        QKeyEvent* key =(QKeyEvent*)(event);
+        if(key->key()==Qt::Key_0)
+        {
+
+            on_btn_cancel_clicked();
+            return true;
+        }
+        else
+            return false;
+
+    }
+
+    else
+        return QDialog::eventFilter(obj,event);
+}
+
+void DialogTimeUpdate::on_btn_cancel_clicked()
+{
+     this->reject();
 }

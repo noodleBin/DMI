@@ -9,7 +9,7 @@
 
 #include <QDialog>
 #include <QDir>
-
+#include <QKeyEvent>
 namespace Ui {
 class DialogOBSStatus;
 }

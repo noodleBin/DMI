@@ -16,7 +16,7 @@ DialogOBSStatus::DialogOBSStatus(QWidget *parent) :
     ui->setupUi(this);
     currentPath=QDir::currentPath()+"/res/";
     ui->pic_exit->installEventFilter(this);
-
+    this->installEventFilter(this);
 
     ui->pic_elssta->setPixmap(currentPath+"ELS_Status_OK.png");
     ui->pic_rrsta->setPixmap(currentPath+"RR_Status_OK.png");
@@ -35,6 +35,19 @@ DialogOBSStatus::~DialogOBSStatus()
 
 bool DialogOBSStatus::eventFilter(QObject *obj, QEvent *event)
 {
+    if(event->type()==QEvent::KeyRelease)
+    {
+        QKeyEvent* key =(QKeyEvent*)(event);
+        if(key->key()==Qt::Key_0)
+        {
+
+            this->reject();
+            return true;
+        }
+        else
+            return false;
+
+    }
     if(obj==ui->pic_exit)
     {
         if(event->type()==QEvent::MouseButtonRelease)
@@ -45,8 +58,9 @@ bool DialogOBSStatus::eventFilter(QObject *obj, QEvent *event)
         else
             return false;
     }
+
     else
-        return DialogOBSStatus::eventFilter(obj,event);
+        return QDialog::eventFilter(obj,event);
 }
 
 void DialogOBSStatus::setPicStatus(quint8 v)

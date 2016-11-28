@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>420</x>
@@ -30,6 +30,9 @@
         <family>微软雅黑</family>
         <pointsize>20</pointsize>
        </font>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
       </property>
       <property name="currentSection">
        <enum>QDateTimeEdit::HourSection</enum>
@@ -77,19 +80,19 @@
          </font>
         </property>
         <property name="text">
-         <string>OK</string>
+         <string>确定</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="btn_ok_2">
+       <widget class="QPushButton" name="btn_cancel">
         <property name="font">
          <font>
           <pointsize>26</pointsize>
          </font>
         </property>
         <property name="text">
-         <string>Cancel</string>
+         <string>取消</string>
         </property>
        </widget>
       </item>
@@ -97,7 +100,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>30</x>

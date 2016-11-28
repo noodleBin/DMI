@@ -36,6 +36,8 @@ DialogVersion::DialogVersion(QMediaPlayer *player,QString version, QWidget *pare
 
     ui->lbl_date->setText(version);
 
+    this->installEventFilter(this);
+
     connect(ui->volumeslider,SIGNAL(sliderMoved(int)),this,SLOT(on_volumeslider_sliderMoved(int)));
 
 }
@@ -105,6 +107,19 @@ void DialogVersion::toggleSound()
 
 bool DialogVersion::eventFilter(QObject *obj, QEvent *event)
 {
+    if(event->type()==QEvent::KeyRelease)
+    {
+        QKeyEvent* key =(QKeyEvent*)(event);
+        if(key->key()==Qt::Key_0)
+        {
+
+            on_btn_ok_clicked();
+            return true;
+        }
+        else
+            return false;
+
+    }
     if(obj==ui->lbl_sub_vol)
     {
         if(event->type()==QEvent::MouseButtonRelease)

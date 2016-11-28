@@ -9,6 +9,7 @@
 
 #include <QDialog>
 #include <QDateTime>
+#include <QKeyEvent>
 namespace Ui {
 class DialogTimeUpdate;
 }
@@ -28,8 +29,15 @@ private slots:
 
     void on_timeEdit_timeChanged(const QTime &time);
 
+
+
+    void on_btn_cancel_clicked();
+
 private:
     Ui::DialogTimeUpdate *ui;
+
+protected:
+    bool eventFilter(QObject *, QEvent *);
 };
 
 #endif // DIALOGTIMEUPDATE_H

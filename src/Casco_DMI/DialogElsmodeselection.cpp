@@ -24,6 +24,7 @@ DialogELSModeSelection::DialogELSModeSelection(QWidget *parent) :
     ui->btn_ok->setText(tr("btnok"));
     ui->btn_cancel->setText(tr("btncancel"));
     this->setWindowFlags(Qt::FramelessWindowHint|Qt::CoverWindow);
+    this->installEventFilter(this);
 
 
 }
@@ -56,4 +57,24 @@ void DialogELSModeSelection::on_btn_ok_clicked()
 void DialogELSModeSelection::on_btn_cancel_clicked()
 {
     this->reject();
+}
+
+bool DialogELSModeSelection::eventFilter(QObject *obj, QEvent *event)
+{
+    if(event->type()==QEvent::KeyRelease)
+    {
+        QKeyEvent* key =(QKeyEvent*)(event);
+        if(key->key()==Qt::Key_0)
+        {
+
+            on_btn_cancel_clicked();
+            return true;
+        }
+        else
+            return false;
+
+    }
+
+    else
+        return QDialog::eventFilter(obj,event);
 }

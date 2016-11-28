@@ -2804,7 +2804,7 @@ void Casco_DMI::refreshMission()
     switch(els_dmi_data->GPS_Status)
     {
     case 0:
-        lblGPS->setPixmap(resPath+"GPS_Status0.png");
+        lblGPS->setPixmap(resPath+"GPS_Status4.png");
         refreshAlarmQue(GPSERROR,"");
         break;
     case 1:
@@ -2820,7 +2820,7 @@ void Casco_DMI::refreshMission()
         lblGPS->setPixmap(resPath+"GPS_Status4.png");
         break;
     default:
-        lblGPS->setPixmap(resPath+"GPS_Status0.png");
+        lblGPS->setPixmap(resPath+"GPS_Status4.png");
         break;
 
     }

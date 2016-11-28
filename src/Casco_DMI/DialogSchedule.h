@@ -9,7 +9,7 @@
 
 #include <QDialog>
 #include <QMap>
-
+#include <QKeyEvent>
 namespace Ui {
 class DialogSchedule;
 }

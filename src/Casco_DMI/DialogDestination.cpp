@@ -22,6 +22,7 @@ DialogDestination::DialogDestination(QWidget *parent) :
     isexec=false;
     this->setWindowFlags(Qt::FramelessWindowHint|Qt::CoverWindow);
     m_servicemode=0;
+    this->installEventFilter(this);
     //    ui->combox_des->setCurrentIndex(0);
     //    ui->combox_des->setDisabled(true);
 }
@@ -31,6 +32,25 @@ void DialogDestination::showEvent(QShowEvent *e)
     quint8 index=(ui->cmb_desorpath->currentIndex());
     // qDebug()<<"index"<<index;
     on_cmb_desorpath_currentIndexChanged(index);
+}
+
+bool DialogDestination::eventFilter(QObject *obj, QEvent *event)
+{
+    if(event->type()==QEvent::KeyRelease)
+    {
+        QKeyEvent* key =(QKeyEvent*)(event);
+        if(key->key()==Qt::Key_0)
+        {
+            on_btn_cancel_clicked();
+            return true;
+        }
+        else
+            return false;
+
+    }
+
+    else
+        return QDialog::eventFilter(obj,event);
 }
 DialogDestination::~DialogDestination()
 {
@@ -51,7 +71,7 @@ void DialogDestination::on_btn_OK_clicked()
             }
             else
                 chosen_value=ui->combox_des->currentText().toUInt();
-//            qDebug()<<chosen_value;
+            //            qDebug()<<chosen_value;
         }
         else
         {

@@ -10,6 +10,7 @@
 #include <QDialog>
 #include <QDir>
 #include <QMediaPlayer>
+#include <QKeyEvent>
 
 namespace Ui {
 class DialogVersion;

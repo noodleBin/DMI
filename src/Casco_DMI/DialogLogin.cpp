@@ -385,7 +385,7 @@ bool DialogLogin::eventFilter(QObject *obj, QEvent * event)
         }
         else if(key->key()==Qt::Key_0)
         {
-            on_btn_0_clicked();
+            on_btn_cancel_clicked();
             return true;
         }
         else if(key->key()==Qt::Key_Backspace)

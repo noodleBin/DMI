@@ -35,10 +35,23 @@ void DialogSchedule::showEvent(QShowEvent *)
     ui->cmb_schedule->installEventFilter(this);
     ui->cmb_service->installEventFilter(this);
     ui->cmb_trip->installEventFilter(this);
+    this->installEventFilter(this);
 }
 
 bool DialogSchedule::eventFilter(QObject *obj, QEvent *event)
 {
+    if(event->type()==QEvent::KeyRelease)
+    {
+        QKeyEvent* key =(QKeyEvent*)(event);
+        if(key->key()==Qt::Key_0)
+        {
+            on_btn_cancel_clicked();
+            return true;
+        }
+        else
+            return false;
+
+    }
     if(obj==ui->cmb_schedule)
     {
         if(  event->type()==QEvent::MouseButtonPress)
@@ -95,6 +108,8 @@ bool DialogSchedule::eventFilter(QObject *obj, QEvent *event)
         else
             return false;
     }
+    else
+        return QDialog::eventFilter(obj,event);
 }
 
 
