@@ -210,7 +210,7 @@ Control2X="14" Control2Y="10" LineWight="4"/>
 </View>
 <View ID="2" Name="清龙路-和平路（交叉）" TemplateID="2">
 <TextList>
-<Text Text="文本1" X="0" Y="0" Size="24" Color="0 0 100" Font="System" Rotate="0"/>
+<Text Text="文本1" X="0" Y="4" Size="24" Color="0 0 100" Font="System" Rotate="0"/>
 <Text Text="文本2" X="3" Y="6" Size="20" Color="0 0 0" Font="Times" Rotate="90"/>
 </TextList>
 <SignalList>

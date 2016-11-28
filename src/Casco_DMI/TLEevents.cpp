@@ -467,7 +467,8 @@ void TLEEvents::drawTxt(QPainter* painter)
 
 
             }
-            painter->drawText(QRect(0,0,5*grid,5*grid),t.txt);
+//            painter->drawText(QRect(0,0,5*grid,5*grid),t.txt);
+            painter->drawText(QPoint(0,0),t.txt);
             painter->restore();
         }
 
