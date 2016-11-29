@@ -1034,55 +1034,55 @@ bool Casco_DMI::eventFilter(QObject *obj, QEvent *event)
 
     //    }
 #endif
-        else if((obj==lblDriverId)|(obj==lblNameDriver)|(obj==lblNameDriverId))
+    else if((obj==lblDriverId)|(obj==lblNameDriver)|(obj==lblNameDriverId))
+    {
+        if((event->type()==QEvent::MouseButtonRelease))
         {
-            if((event->type()==QEvent::MouseButtonRelease))
+            quint16 tripid=els_dmi_data->Trip_Id;
+            quint16 pathid=els_dmi_data->Path_Id;
+            quint16 lineid=els_dmi_data->Line_Id;
+            quint16 physicaltrainid=els_dmi_data->Physical_Train_Id;
+
+            //             qDebug()<<"logic"<<QString::number(logictrainid);
+
+            if(tripid>32767)
             {
-                quint16 tripid=els_dmi_data->Trip_Id;
-                quint16 pathid=els_dmi_data->Path_Id;
-                quint16 lineid=els_dmi_data->Line_Id;
-                quint16 physicaltrainid=els_dmi_data->Physical_Train_Id;
-
-                //             qDebug()<<"logic"<<QString::number(logictrainid);
-
-                if(tripid>32767)
-                {
-                    tripid=0;
-                    warning_msg="[ELS] tripid>32767";
-                    alarmPromte(warning_msg);
-                }
-
-                if(pathid>32767)
-                {
-                    pathid=0;
-                    warning_msg="[ELS] pathid>32767";
-                    alarmPromte(warning_msg);
-                }
-                //            diallogin=new DialogLogin(wid);
-                //            diallogin->setGeometry(xpos,ypos,diallogin->width(),diallogin->height());
-                diallogin->setTripAndPath(tripid,pathid,lineid,physicaltrainid);
-                //        diallogin->move(xpos,ypos);
-                if(diallogin->exec()==QDialog::Accepted)
-                {
-                    qint16 i=  diallogin->driverID.toInt();
-
-                    dmi_els_data->Driver_Id=i;
-                    is_driverid_send=true;
-                    if(i!=0)
-                        isLogin=true;
-                    else
-                        isLogin=false;
-
-                }
-                operateType="modify DriverID "+QString::number(dmi_els_data->Driver_Id);
-                //            delete diallogin;
-                return true;
+                tripid=0;
+                warning_msg="[ELS] tripid>32767";
+                alarmPromte(warning_msg);
             }
-            else
+
+            if(pathid>32767)
             {
-                return false;
+                pathid=0;
+                warning_msg="[ELS] pathid>32767";
+                alarmPromte(warning_msg);
             }
+            //            diallogin=new DialogLogin(wid);
+            //            diallogin->setGeometry(xpos,ypos,diallogin->width(),diallogin->height());
+            diallogin->setTripAndPath(tripid,pathid,lineid,physicaltrainid);
+            //        diallogin->move(xpos,ypos);
+            if(diallogin->exec()==QDialog::Accepted)
+            {
+                qint16 i=  diallogin->driverID.toInt();
+
+                dmi_els_data->Driver_Id=i;
+                is_driverid_send=true;
+                if(i!=0)
+                    isLogin=true;
+                else
+                    isLogin=false;
+
+            }
+            operateType="modify DriverID "+QString::number(dmi_els_data->Driver_Id);
+            //            delete diallogin;
+            return true;
         }
+        else
+        {
+            return false;
+        }
+    }
     else if((obj==lblDelay)||(obj==lblNameDelay))
     {
         if((event->type()==QEvent::MouseButtonRelease))
@@ -1532,14 +1532,17 @@ bool Casco_DMI::eventFilter(QObject *obj, QEvent *event)
         }
         if(key->key()==Qt::Key_1)
         {
-            if(isLogin)
+            if(displayno==1)
             {
-                dialsms->exec();
-            }
-            else
-            {
-                msbox->setValue("请登陆后操作");
-                msbox->exec();
+                if(isLogin)
+                {
+                    dialsms->exec();
+                }
+                else
+                {
+                    msbox->setValue("请登陆后操作");
+                    msbox->exec();
+                }
             }
         }
         if(key->key()==Qt::Key_M)
@@ -1548,45 +1551,54 @@ bool Casco_DMI::eventFilter(QObject *obj, QEvent *event)
         }
         if(key->key()==Qt::Key_2)
         {
-            if(isLogin)
+            if(displayno==1)
             {
-                mute_radar=!mute_radar;
-                refreshRadarPic();
-                QString txt;
-                if(mute_radar)
-                    txt="关闭雷达";
+                if(isLogin)
+                {
+                    mute_radar=!mute_radar;
+                    refreshRadarPic();
+                    QString txt;
+                    if(mute_radar)
+                        txt="关闭雷达";
+                    else
+                        txt="打开雷达";
+                    logcontent=  QDateTime::currentDateTime().toString("yyyy/MM/dd HH:mm:ss")+
+                            "司机号 "+ QString::number(els_dmi_data->Driver_Id)+
+                            txt;
+                    log->writeLog(logcontent);
+                }
                 else
-                    txt="打开雷达";
-                logcontent=  QDateTime::currentDateTime().toString("yyyy/MM/dd HH:mm:ss")+
-                        "司机号 "+ QString::number(els_dmi_data->Driver_Id)+
-                        txt;
-                log->writeLog(logcontent);
-            }
-            else
-            {
-                msbox->setValue("请登陆后操作");
-                msbox->exec();
+                {
+                    msbox->setValue("请登陆后操作");
+                    msbox->exec();
+                }
             }
         }
         if(key->key()==Qt::Key_3)
         {
-            if(isLogin)
+            if(displayno==1)
             {
-                ToggleMute();
+                if(isLogin)
+                {
+                    ToggleMute();
 
-            }
-            else
-            {
-                msbox->setValue("请登陆后操作");
-                msbox->exec();
+                }
+                else
+                {
+                    msbox->setValue("请登陆后操作");
+                    msbox->exec();
+                }
             }
         }
         if(key->key()==Qt::Key_4)
         {
-            isdialobspop=true;
-            dialobs->exec();
+            if(displayno==1)
+            {
+                isdialobspop=true;
+                dialobs->exec();
 
-            isdialobspop=false;
+                isdialobspop=false;
+            }
         }
         if(key->key()==Qt::Key_2&&key->modifiers()==Qt::CTRL)
         {
@@ -4081,17 +4093,17 @@ void Casco_DMI::sendMsgToELS()
         dmi_els_data->DMI_Message_Time_Stamp=els_dmi_data->ELS_Message_Time_Stamp;
     else
         dmi_els_data->DMI_Message_Time_Stamp=(quint64)((QDateTime::currentDateTime().toTime_t()-timediff+els_dmi_data->Time_Zone*15*60)<<32);
-                //        quint64 lo=els_dmi_data->ELS_Message_Time_Stamp;
-                //        quint64 utc=els_dmi_data->Current_Time;
-                //        quint32 diff=(lo-utc)>>32;
-                //        qDebug()<<"diff"<<diff;
-                //        quint64 set=(quint64)(tmpsendtimeseconds)<<32;
-                //        quint32 setdiff=(set-utc)>>32;
-                //        qDebug()<<"set di"<<setdiff;
+    //        quint64 lo=els_dmi_data->ELS_Message_Time_Stamp;
+    //        quint64 utc=els_dmi_data->Current_Time;
+    //        quint32 diff=(lo-utc)>>32;
+    //        qDebug()<<"diff"<<diff;
+    //        quint64 set=(quint64)(tmpsendtimeseconds)<<32;
+    //        quint32 setdiff=(set-utc)>>32;
+    //        qDebug()<<"set di"<<setdiff;
 
-                //    log->writeLog("send date time is no plus timezone "+QString::number(notimezonetime));
-                //    log->writeLog("send date time is  plus timezone "+QString::number(tmpsendtimeseconds));
-                dmi_els_data->Display_Status= els_dmi_data->DMI_Control;
+    //    log->writeLog("send date time is no plus timezone "+QString::number(notimezonetime));
+    //    log->writeLog("send date time is  plus timezone "+QString::number(tmpsendtimeseconds));
+    dmi_els_data->Display_Status= els_dmi_data->DMI_Control;
     //    qDebug()<<"dmi_control"<<els_dmi_data->DMI_Control;
 
 

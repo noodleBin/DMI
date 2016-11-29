@@ -1,0 +1,11 @@
+moc*
+Log/
+SMS/
+ui_*
+*.o
+qrc*
+*~
+Makefile
+tmp
+buildSimulator/
+*.user

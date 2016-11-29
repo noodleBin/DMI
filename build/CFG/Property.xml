@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" standalone="yes" ?>
 <Other_Info>
-<Diffflash Value="5" />
-<Disconnect Time="3" />
+<Diffflash Value="3" />
+<Disconnect Time="5" />
 <APP Version="1.0.0" />
 <Data Version="1.0.0" />
 <SMS Displaycount="15" />
@@ -10,7 +10,7 @@
 <File SplitsizeMB="50" />
 <check time="15" />
 <send time="3" />
-<active end="2" />
+<active end="1" />
 <ToDown dis="50" />
 <Deptime value="12" />
 <Advance value="60" />

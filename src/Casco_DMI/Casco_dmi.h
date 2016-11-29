@@ -94,8 +94,6 @@
 #define OVERSHOOT 13
 #define HIGHRADAR 14
 #define NORMALRADAR 15
-#define ENTERTLE 16
-#define LEAVETLE 17
 #define NEARDOWN 18
 #define TURNBACK 19
 #define SKIP 20
